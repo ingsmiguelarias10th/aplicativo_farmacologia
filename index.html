@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmacoStudy | Plataforma de Farmacología</title>
+  <meta name="description" content="Plataforma educativa organizada por semanas y módulos de Farmacología.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-icon">⚕</div>
+      <div>
+        <h1>Farmaco<span>Study</span></h1>
+        <p>Plataforma de aprendizaje</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#semanas">Módulos</a>
+      <a href="#progreso">Progreso</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-text">
+        <span class="eyebrow">RUTA ACADÉMICA</span>
+        <h2>Aprende Farmacología<br><span>paso a paso.</span></h2>
+        <p>Explora los temas vistos en cada semana, estudia sus conceptos fundamentales y comprueba tus conocimientos mediante actividades.</p>
+        <a class="primary-btn" href="#semanas">Explorar módulos <span>→</span></a>
+      </div>
+      <div class="hero-card">
+        <div class="molecule molecule-one">⚛</div>
+        <div class="molecule molecule-two">✦</div>
+        <div class="hero-card-content">
+          <div class="medical-symbol">✚</div>
+          <h3>Tu espacio de estudio</h3>
+          <p>Organiza tus conocimientos en una sola plataforma.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>2</strong><span>Semanas registradas</span></div>
+      <div><strong>5</strong><span>Módulos disponibles</span></div>
+      <div><strong>100%</strong><span>Contenido organizado</span></div>
+    </section>
+
+    <section class="section" id="semanas">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">CONTENIDO ACADÉMICO</span>
+          <h2>Selecciona una semana</h2>
+        </div>
+        <p>Accede a los módulos según el momento en que fueron vistos en clase.</p>
+      </div>
+
+      <div class="week-grid">
+        <article class="week-card week-purple">
+          <div class="week-top">
+            <span class="week-number">SEMANA 01</span>
+            <span class="week-icon">🧬</span>
+          </div>
+          <h3>Cáncer y tratamiento antineoplásico</h3>
+          <p>Comprende las bases moleculares del cáncer, el crecimiento tumoral y los principales fármacos antineoplásicos.</p>
+          <div class="module-list">
+            <button class="module-item" data-module="bases">
+              <span class="module-index">01</span>
+              <span>Bases moleculares del cáncer</span>
+              <span>→</span>
+            </button>
+            <button class="module-item" data-module="crecimiento">
+              <span class="module-index">02</span>
+              <span>Biología del crecimiento tumoral</span>
+              <span>→</span>
+            </button>
+            <button class="module-item" data-module="antineoplasticos">
+              <span class="module-index">03</span>
+              <span>Antineoplásicos</span>
+              <span>→</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="week-card week-blue">
+          <div class="week-top">
+            <span class="week-number">SEMANA 02</span>
+            <span class="week-icon">🧫</span>
+          </div>
+          <h3>Antimicrobianos y resistencia</h3>
+          <p>Estudia la interpretación del antibiograma y los mecanismos que permiten a los microorganismos resistir los tratamientos.</p>
+          <div class="module-list">
+            <button class="module-item" data-module="antibiograma">
+              <span class="module-index">01</span>
+              <span>Antibiograma</span>
+              <span>→</span>
+            </button>
+            <button class="module-item" data-module="resistencia">
+              <span class="module-index">02</span>
+              <span>Resistencia antimicrobiana</span>
+              <span>→</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="week-card week-muted">
+          <div class="week-top">
+            <span class="week-number">SEMANA 03</span>
+            <span class="week-icon">＋</span>
+          </div>
+          <h3>Próximamente</h3>
+          <p>Esta sección queda preparada para agregar los siguientes temas del curso.</p>
+          <button class="disabled-btn" disabled>Contenido pendiente</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section progress-section" id="progreso">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">SEGUIMIENTO</span>
+          <h2>Tu progreso académico</h2>
+        </div>
+      </div>
+      <div class="progress-card">
+        <div class="progress-info">
+          <div class="progress-symbol">✓</div>
+          <div>
+            <h3>Ruta de aprendizaje</h3>
+            <p>Completa los módulos a medida que estudias.</p>
+          </div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill"></div></div>
+        <div class="progress-bottom"><span>0 de 5 módulos completados</span><strong>0%</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="moduleModal">
+    <div class="modal-box">
+      <button class="close-btn" id="closeModal">×</button>
+      <span class="eyebrow" id="modalWeek">SEMANA 01</span>
+      <h2 id="modalTitle">Título del módulo</h2>
+      <p id="modalDescription"></p>
+      <div class="modal-content">
+        <h3>Contenido del módulo</h3>
+        <ul id="modalTopics"></ul>
+      </div>
+      <button class="primary-btn" id="completeBtn">Marcar como completado ✓</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>FarmacoStudy © 2026 · Plataforma educativa de Farmacología</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
