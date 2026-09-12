@@ -29,7 +29,7 @@
       <div class="hero-text">
         <span class="eyebrow">RUTA ACADÉMICA</span>
         <h2>Aprende Farmacología<br><span>paso a paso.</span></h2>
-        <p>Explora los temas vistos en cada semana, estudia sus conceptos fundamentales y comprueba tus conocimientos mediante actividades.</p>
+        <p>Explora los temas vistos en cada semana, estudia sus conceptos fundamentales y comprueba tus conocimientos mediante actividades de opción múltiple organizadas por módulo.</p>
         <a class="primary-btn" href="#semanas">Explorar módulos <span>→</span></a>
       </div>
       <div class="hero-card">
@@ -44,9 +44,9 @@
     </section>
 
     <section class="stats">
-      <div><strong>2</strong><span>Semanas registradas</span></div>
-      <div><strong>5</strong><span>Módulos disponibles</span></div>
-      <div><strong>100%</strong><span>Contenido organizado</span></div>
+      <div><strong id="statWeeks">0</strong><span>Semanas registradas</span></div>
+      <div><strong id="statModules">0</strong><span>Módulos disponibles</span></div>
+      <div><strong id="statQuestions">0</strong><span>Preguntas interactivas</span></div>
     </section>
 
     <section class="section" id="semanas">
@@ -55,69 +55,15 @@
           <span class="eyebrow">CONTENIDO ACADÉMICO</span>
           <h2>Selecciona una semana</h2>
         </div>
-        <p>Accede a los módulos según el momento en que fueron vistos en clase.</p>
+        <p>Accede a los módulos según el momento en que fueron vistos en clase. Cada módulo incluye su cuestionario completo.</p>
       </div>
 
-      <div class="week-grid">
-        <article class="week-card week-purple">
-          <div class="week-top">
-            <span class="week-number">SEMANA 01</span>
-            <span class="week-icon">🧬</span>
-          </div>
-          <h3>Cáncer y tratamiento antineoplásico</h3>
-          <p>Comprende las bases moleculares del cáncer, el crecimiento tumoral y los principales fármacos antineoplásicos.</p>
-          <div class="module-list">
-            <button class="module-item" data-module="bases">
-              <span class="module-index">01</span>
-              <span>Bases moleculares del cáncer</span>
-              <span>→</span>
-            </button>
-            <button class="module-item" data-module="crecimiento">
-              <span class="module-index">02</span>
-              <span>Biología del crecimiento tumoral</span>
-              <span>→</span>
-            </button>
-            <button class="module-item" data-module="antineoplasticos">
-              <span class="module-index">03</span>
-              <span>Antineoplásicos</span>
-              <span>→</span>
-            </button>
-          </div>
-        </article>
-
-        <article class="week-card week-blue">
-          <div class="week-top">
-            <span class="week-number">SEMANA 02</span>
-            <span class="week-icon">🧫</span>
-          </div>
-          <h3>Antimicrobianos y resistencia</h3>
-          <p>Estudia la interpretación del antibiograma y los mecanismos que permiten a los microorganismos resistir los tratamientos.</p>
-          <div class="module-list">
-            <button class="module-item" data-module="antibiograma">
-              <span class="module-index">01</span>
-              <span>Antibiograma</span>
-              <span>→</span>
-            </button>
-            <button class="module-item" data-module="resistencia">
-              <span class="module-index">02</span>
-              <span>Resistencia antimicrobiana</span>
-              <span>→</span>
-            </button>
-          </div>
-        </article>
-
-        <article class="week-card week-muted">
-          <div class="week-top">
-            <span class="week-number">SEMANA 03</span>
-            <span class="week-icon">＋</span>
-          </div>
-          <h3>Próximamente</h3>
-          <p>Esta sección queda preparada para agregar los siguientes temas del curso.</p>
-          <button class="disabled-btn" disabled>Contenido pendiente</button>
-        </article>
+      <div class="week-grid" id="weekGrid">
+        <!-- Las tarjetas de semana y módulo se generan dinámicamente desde script.js (courseData) -->
       </div>
     </section>
 
+    <!-- SEGUIMIENTO -->
     <section class="section progress-section" id="progreso">
       <div class="section-heading">
         <div>
@@ -134,22 +80,31 @@
           </div>
         </div>
         <div class="progress-bar"><div class="progress-fill"></div></div>
-        <div class="progress-bottom"><span>0 de 5 módulos completados</span><strong>0%</strong></div>
+        <div class="progress-bottom"><span>0 de 0 módulos completados</span><strong>0%</strong></div>
       </div>
     </section>
   </main>
 
+  <!-- MODAL DE MÓDULO -->
   <div class="modal hidden" id="moduleModal">
     <div class="modal-box">
       <button class="close-btn" id="closeModal">×</button>
       <span class="eyebrow" id="modalWeek">SEMANA 01</span>
       <h2 id="modalTitle">Título del módulo</h2>
       <p id="modalDescription"></p>
+
       <div class="modal-content">
-        <h3>Contenido del módulo</h3>
+        <h3>Contenido y Objetivos de Estudio</h3>
         <ul id="modalTopics"></ul>
       </div>
-      <button class="primary-btn" id="completeBtn">Marcar como completado ✓</button>
+
+      <div class="modal-quiz-preview" id="modalQuizArea">
+        <h3>Cuestionario del Módulo</h3>
+        <p id="modalQuizCount">Pon a prueba tus conocimientos sobre este módulo, organizado por secciones:</p>
+        <div id="modalQuestionsList"></div>
+      </div>
+
+      <button class="primary-btn" id="completeBtn" style="margin-top: 20px;">Marcar como completado ✓</button>
     </div>
   </div>
 
