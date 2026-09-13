@@ -76,6 +76,8 @@ main { max-width: 1180px; margin: auto; padding: 0 28px; }
 .week-card.week-wide { grid-column: span 2; }
 .week-purple { background: linear-gradient(145deg, #f3f0ff, #fff); border-color: #e3ddff; }
 .week-blue { background: linear-gradient(145deg, #edf6ff, #fff); border-color: #dcecff; }
+.week-green { background: linear-gradient(145deg, #eafaf1, #fff); border-color: #cdf0dc; }
+.week-green .module-index { color: var(--green); }
 .week-muted { background: #fff; }
 .week-top { display: flex; justify-content: space-between; align-items: center; }
 .week-number { font-size: 11px; letter-spacing: 1.5px; font-weight: 800; color: var(--muted); }

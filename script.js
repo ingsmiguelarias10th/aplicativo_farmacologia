@@ -513,6 +513,256 @@ const courseData = {
                   "explanation": ""
                 }
               ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 426,
+                  "question": "Comparando una mutación en un protooncogén con una en un gen supresor de tumor, ¿qué predice el modelo de los \"dos eventos\" de Knudson sobre el número de alelos que deben alterarse en cada caso?",
+                  "options": [
+                    "En ambos casos basta con alterar un solo alelo",
+                    "En el protooncogén basta con alterar un alelo (dominante); en el supresor de tumor deben alterarse ambos alelos (recesivo)",
+                    "En el supresor de tumor basta con alterar un alelo; en el protooncogén deben alterarse ambos",
+                    "Ninguno de los dos requiere alteración alélica, solo cambios epigenéticos"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los oncogenes actúan de forma dominante (una copia mutada activada basta), mientras que los supresores de tumor son recesivos y requieren la inactivación de ambos alelos."
+                },
+                {
+                  "id": 427,
+                  "question": "Comparando la amplificación génica con la translocación cromosómica como mecanismos de activación de protooncogenes, ¿qué diferencia predice sobre el número de copias del gen final?",
+                  "options": [
+                    "Ambas siempre aumentan el número de copias del gen por igual",
+                    "La amplificación aumenta directamente el número de copias del gen; la translocación reubica o fusiona el gen sin necesariamente aumentar su número de copias",
+                    "La translocación siempre aumenta más copias que la amplificación",
+                    "Ninguna de las dos afecta el número de copias génicas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La amplificación produce múltiples copias de una secuencia (como en HER2); la translocación reubica material genético o forma genes de fusión, sin implicar necesariamente más copias."
+                },
+                {
+                  "id": 428,
+                  "question": "Al comparar una mutación \"conductora\" con una \"pasajera\" dentro del mismo tumor, ¿qué se predice sobre su presencia en las distintas regiones o subclonas tumorales?",
+                  "options": [
+                    "Ambas están presentes por igual en todas las células tumorales",
+                    "La conductora suele estar presente en todas las células (evento fundador); la pasajera puede estar restringida a subclonas específicas",
+                    "La pasajera está siempre presente en todas las células y la conductora no",
+                    "Ninguna de las dos se relaciona con la heterogeneidad tumoral"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las mutaciones conductoras confieren ventaja selectiva desde etapas tempranas y se fijan en toda la población tumoral; las pasajeras surgen después y quedan restringidas a subclonas."
+                },
+                {
+                  "id": 429,
+                  "question": "Si una célula tumoral pierde la función de la enzima MGMT, ¿qué efecto se predice sobre su respuesta a agentes alquilantes que dañan el ADN mediante metilación (como la temozolomida)?",
+                  "options": [
+                    "Mayor resistencia, porque MGMT no participa en la reparación del daño alquilante",
+                    "Mayor sensibilidad al fármaco, ya que la célula pierde la capacidad de revertir la alquilación del ADN",
+                    "No hay ningún efecto, MGMT es irrelevante para este tipo de daño",
+                    "La célula se vuelve completamente inmune al fármaco"
+                  ],
+                  "correct": 1,
+                  "explanation": "MGMT revierte la alquilación del ADN; su pérdida impide reparar el daño causado por agentes alquilantes, aumentando la sensibilidad tumoral al fármaco."
+                },
+                {
+                  "id": 430,
+                  "question": "Comparando la inactivación de un gen supresor de tumor por mutación genética clásica con su inactivación por hipermetilación del promotor (epimutación), ¿qué predice esto sobre la reversibilidad potencial del silenciamiento?",
+                  "options": [
+                    "Ambas son igualmente irreversibles",
+                    "La epimutación es potencialmente reversible (p. ej. con agentes desmetilantes); la mutación genética es permanente",
+                    "La mutación genética es reversible y la epimutación no",
+                    "Ninguna de las dos altera la expresión génica de forma significativa"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las alteraciones epigenéticas como la metilación no cambian la secuencia de ADN y en teoría pueden revertirse farmacológicamente, a diferencia de una mutación estructural permanente."
+                },
+                {
+                  "id": 431,
+                  "question": "Si un tumor de mama presenta amplificación de HER2 pero no muestra mutaciones puntuales en oncogenes clásicos como KRAS o TP53, ¿qué se puede inferir sobre el mecanismo oncogénico dominante en ese tumor?",
+                  "options": [
+                    "Que el tumor no tiene ningún mecanismo molecular identificable",
+                    "Que el mecanismo dominante es la amplificación/sobreexpresión génica, no necesariamente una mutación puntual",
+                    "Que el tumor es benigno, ya que no hay mutaciones puntuales",
+                    "Que HER2 no puede considerarse un protooncogén en este caso"
+                  ],
+                  "correct": 1,
+                  "explanation": "La oncogénesis puede producirse por distintas vías; en este caso la sobreexpresión de HER2 por amplificación génica es el mecanismo relevante, independientemente de la ausencia de mutaciones puntuales en otros genes."
+                },
+                {
+                  "id": 432,
+                  "question": "Comparando el gen de fusión BCR-ABL con una simple sobreexpresión por amplificación génica, ¿qué diferencia funcional predice sobre la proteína resultante?",
+                  "options": [
+                    "Ambos mecanismos producen exactamente la misma proteína, solo cambia la cantidad",
+                    "BCR-ABL genera una proteína nueva con actividad enzimática anómala y constitutiva; la amplificación solo incrementa la cantidad de la proteína normal",
+                    "La amplificación genera una proteína nueva y BCR-ABL solo aumenta la cantidad de la proteína normal",
+                    "Ninguno de los dos mecanismos altera la función de la proteína"
+                  ],
+                  "correct": 1,
+                  "explanation": "La translocación que forma BCR-ABL crea una proteína de fusión con actividad tirosina cinasa desregulada, cualitativamente distinta a la proteína normal amplificada."
+                },
+                {
+                  "id": 433,
+                  "question": "Si dos pacientes presentan tumores con pérdida de función de p53 —uno por mutación puntual y otro por deleción completa del gen—, ¿qué predice esto sobre su consecuencia funcional común?",
+                  "options": [
+                    "No comparten ninguna consecuencia funcional",
+                    "Ambos pierden la capacidad de detener el ciclo celular e inducir apoptosis ante daño al ADN, independientemente del mecanismo exacto de inactivación",
+                    "Solo el paciente con deleción pierde función de p53",
+                    "Solo el paciente con mutación puntual pierde función de p53"
+                  ],
+                  "correct": 1,
+                  "explanation": "Lo relevante funcionalmente es la pérdida de la actividad de p53 como guardián del genoma, sin importar si se debe a una mutación puntual o a una deleción completa."
+                },
+                {
+                  "id": 434,
+                  "question": "Comparando un virus de ADN oncogénico (como el VPH) con un retrovirus oncogénico, ¿qué diferencia se predice en su mecanismo de transformación celular?",
+                  "options": [
+                    "Ambos actúan exactamente de la misma manera, insertando su genoma cerca de protooncogenes",
+                    "El VPH inactiva proteínas supresoras (p53, Rb) mediante proteínas virales (E6, E7); el retrovirus inserta su material genético cerca de protooncogenes y los sobreexpresa vía su promotor viral",
+                    "El retrovirus inactiva p53 directamente y el VPH sobreexpresa protooncogenes",
+                    "Ninguno de los dos virus tiene relación con la carcinogénesis"
+                  ],
+                  "correct": 1,
+                  "explanation": "El VPH codifica oncoproteínas (E6/E7) que inactivan supresores de tumor; los retrovirus insertan su provirus cerca de protooncogenes, sobreexpresándolos mediante su promotor viral fuerte."
+                },
+                {
+                  "id": 435,
+                  "question": "Comparando la pérdida de heterocigosidad (LOH) en un paciente con predisposición hereditaria frente a uno sin antecedentes familiares, ¿qué se predice sobre la velocidad de aparición del segundo evento necesario para inactivar el gen supresor?",
+                  "options": [
+                    "Es igual en ambos casos, ya que se requieren siempre dos eventos somáticos independientes",
+                    "En el paciente hereditario solo se necesita un evento somático adicional (ya nace con un alelo mutado), por lo que la inactivación completa ocurre más rápido",
+                    "En el paciente sin antecedentes la inactivación ocurre más rápido",
+                    "Ninguno de los dos puede desarrollar pérdida de heterocigosidad"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la forma hereditaria basta un segundo evento somático para inactivar el gen (ya hay una copia mutada de origen germinal); en la forma esporádica se requieren dos eventos independientes, lo que retrasa la aparición."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 436,
+                  "question": "Un paciente con cáncer colorrectal metastásico es tratado con cetuximab (anticuerpo anti-EGFR), pero no responde. El estudio molecular revela una mutación activadora en KRAS. ¿Cómo se explica esta resistencia primaria al tratamiento?",
+                  "options": [
+                    "El cetuximab no tiene relación con la vía de EGFR",
+                    "KRAS actúa río abajo de EGFR en la misma vía de señalización; si está mutado y constitutivamente activo, bloquear el receptor (río arriba) no detiene la proliferación celular",
+                    "La mutación en KRAS inactiva por completo al tumor, por lo que no debería requerir tratamiento",
+                    "El cetuximab solo funciona en tumores con KRAS mutado"
+                  ],
+                  "correct": 1,
+                  "explanation": "Cuando KRAS está mutado, la vía de señalización permanece activa independientemente del estado del receptor EGFR, por lo que bloquear EGFR con cetuximab resulta ineficaz."
+                },
+                {
+                  "id": 437,
+                  "question": "Una familia con múltiples casos de retinoblastoma bilateral en varias generaciones consulta genética. ¿Qué información es correcta transmitirles sobre el riesgo de sus futuros hijos, integrando el concepto de mutación germinal?",
+                  "options": [
+                    "No existe ningún riesgo hereditario, el retinoblastoma siempre es esporádico",
+                    "Si el patrón hereditario porta la mutación germinal del gen RB en todas sus células, cada hijo tiene aproximadamente 50% de probabilidad de heredar el alelo mutado, y de heredarlo, alta probabilidad de desarrollar la enfermedad",
+                    "Todos los hijos desarrollarán la enfermedad con certeza absoluta",
+                    "El riesgo solo existe si ambos padres portan la mutación"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la forma hereditaria del retinoblastoma, el alelo mutado se transmite de forma autosómica dominante con alta penetrancia, ya que solo se requiere un segundo evento somático para el desarrollo tumoral."
+                },
+                {
+                  "id": 438,
+                  "question": "Un paciente con leucemia mieloide crónica (cromosoma Filadelfia positivo) responde inicialmente bien a imatinib, pero años después deja de responder. El estudio molecular muestra una nueva mutación en el dominio de unión de BCR-ABL. ¿Qué fenómeno explica esta pérdida de respuesta?",
+                  "options": [
+                    "El imatinib dejó de absorberse por el paciente",
+                    "Selección clonal de una subclona con mutación de resistencia en el dominio cinasa de BCR-ABL, favorecida por la presión selectiva del tratamiento continuo",
+                    "El cromosoma Filadelfia desapareció espontáneamente",
+                    "La leucemia se curó completamente y los síntomas son de otra enfermedad"
+                  ],
+                  "correct": 1,
+                  "explanation": "El tratamiento prolongado ejerce presión selectiva que favorece la supervivencia de subclonas con mutaciones que impiden la unión eficaz del fármaco a BCR-ABL."
+                },
+                {
+                  "id": 439,
+                  "question": "Un paciente con antecedente de exposición ocupacional prolongada a benceno desarrolla una leucemia cuyo cariotipo muestra múltiples translocaciones y deleciones, sin una mutación única identificable como causante. ¿Cómo se interpreta este hallazgo?",
+                  "options": [
+                    "El benceno no tiene relación con el desarrollo de leucemia",
+                    "El benceno actuó como carcinógeno induciendo daño genético acumulativo e inestabilidad cromosómica global, consistente con el modelo de acumulación progresiva de fallas genéticas más que con una mutación única",
+                    "Es un error de laboratorio, todo cáncer debe tener una única mutación causante",
+                    "Significa que el paciente no tiene cáncer, solo una alteración benigna"
+                  ],
+                  "correct": 1,
+                  "explanation": "Como en el caso del trabajador metalúrgico visto en el módulo, la exposición crónica a carcinógenos puede producir múltiples alteraciones cromosómicas acumulativas en vez de una mutación única identificable."
+                },
+                {
+                  "id": 440,
+                  "question": "Un paciente con síndrome de Li-Fraumeni (mutación germinal en TP53) es diagnosticado con un sarcoma a los 25 años. Su oncólogo evita la radioterapia cuando existen alternativas terapéuticas razonables. ¿Por qué esta decisión es coherente con el defecto molecular subyacente?",
+                  "options": [
+                    "Porque la radioterapia nunca es efectiva contra sarcomas",
+                    "Porque al tener comprometida la función de p53, sus células tienen menor capacidad de responder adecuadamente al daño del ADN inducido por la radiación, lo que podría favorecer neoplasias secundarias inducidas por el propio tratamiento",
+                    "Porque el síndrome de Li-Fraumeni no afecta la respuesta a la radiación",
+                    "Porque la radioterapia cura completamente cualquier tumor con mutación de TP53"
+                  ],
+                  "correct": 1,
+                  "explanation": "La pérdida de función de p53 (guardián del genoma) compromete la respuesta al daño del ADN, por lo que la radiación —que induce daño genético— puede favorecer la aparición de neoplasias secundarias en estos pacientes."
+                },
+                {
+                  "id": 441,
+                  "question": "En el estudio molecular de un tumor gástrico se encuentra hipermetilación del promotor de un gen supresor de tumor, sin mutaciones en su secuencia de ADN. ¿Qué estrategia terapéutica en investigación podría considerarse, basada en este mecanismo epigenético?",
+                  "options": [
+                    "Ninguna, los cambios epigenéticos no pueden abordarse farmacológicamente",
+                    "El uso de agentes desmetilantes que podrían reactivar la expresión del gen supresor silenciado",
+                    "Radioterapia exclusivamente, ya que actúa directamente sobre la metilación del ADN",
+                    "Cirugía inmediata, ya que la epimutación no responde a ningún tratamiento sistémico"
+                  ],
+                  "correct": 1,
+                  "explanation": "A diferencia de una mutación estructural, el silenciamiento por metilación del promotor es potencialmente reversible con fármacos desmetilantes, una estrategia en investigación activa."
+                },
+                {
+                  "id": 442,
+                  "question": "Un paciente con infección persistente por VPH de alto riesgo desarrolla, años después, un cáncer de cuello uterino invasor. ¿Qué mecanismo molecular específico del virus explica esta progresión con el tiempo?",
+                  "options": [
+                    "El VPH destruye directamente el ADN celular sin mecanismo específico",
+                    "La proteína E6 del VPH inactiva a p53 y la proteína E7 inactiva a Rb, eliminando dos mecanismos clave de control del ciclo celular y favoreciendo la acumulación progresiva de mutaciones adicionales",
+                    "El VPH solo causa cáncer si se asocia a tabaquismo, sin mecanismo molecular propio",
+                    "El VPH actúa exclusivamente como agente alquilante del ADN"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las oncoproteínas virales E6 y E7 inactivan a p53 y Rb respectivamente, eliminando los principales puntos de control del ciclo celular y facilitando la acumulación de alteraciones genéticas adicionales."
+                },
+                {
+                  "id": 443,
+                  "question": "Un paciente con cáncer de colon hereditario (síndrome de Lynch) tiene una mutación en genes de reparación de errores de emparejamiento (MMR, como MSH2/MLH1). ¿Qué consecuencia molecular general se espera en sus tumores?",
+                  "options": [
+                    "Ausencia total de mutaciones adicionales en el tumor",
+                    "Alta inestabilidad de microsatélites y acumulación acelerada de mutaciones adicionales, ya que el sistema de reparación de errores del ADN está comprometido",
+                    "Mayor estabilidad genómica que en tumores esporádicos",
+                    "Ninguna relación con la velocidad de acumulación de mutaciones"
+                  ],
+                  "correct": 1,
+                  "explanation": "Al estar comprometido el sistema de reparación de errores de emparejamiento, los tumores del síndrome de Lynch acumulan mutaciones mucho más rápido, generando inestabilidad de microsatélites característica."
+                },
+                {
+                  "id": 444,
+                  "question": "Un tumor de mama muestra amplificación del gen HER2 confirmada por estudio molecular. ¿Qué opción terapéutica dirigida sería razonable considerar, integrando este mecanismo molecular específico?",
+                  "options": [
+                    "Un inhibidor de BCR-ABL como el imatinib",
+                    "Trastuzumab, un anticuerpo monoclonal dirigido específicamente contra el receptor HER2",
+                    "Radioterapia exclusiva, sin ninguna terapia dirigida",
+                    "Un agonista de GnRH, ya que HER2 es un receptor hormonal"
+                  ],
+                  "correct": 1,
+                  "explanation": "Dado que el mecanismo oncogénico dominante en este caso es la sobreexpresión/amplificación de HER2, el trastuzumab (dirigido específicamente contra este receptor) es la opción terapéutica racional."
+                },
+                {
+                  "id": 445,
+                  "question": "En un paciente con adenocarcinoma colorrectal se identifican mutaciones conductoras en APC y KRAS presentes en todas las regiones tumorales analizadas, junto con más de 300 mutaciones adicionales presentes solo en algunas regiones. ¿Cómo se interpreta clínicamente este hallazgo respecto a la heterogeneidad tumoral?",
+                  "options": [
+                    "Todas las mutaciones tienen el mismo valor pronóstico y terapéutico",
+                    "Las mutaciones conductoras (APC, KRAS) representan alteraciones fundadoras compartidas por todo el tumor, mientras que las mutaciones subclonales reflejan heterogeneidad intratumoral que podría explicar respuestas variables a terapias dirigidas",
+                    "La presencia de mutaciones pasajeras descarta el diagnóstico de cáncer",
+                    "Ninguna de las mutaciones tiene relevancia clínica"
+                  ],
+                  "correct": 1,
+                  "explanation": "La heterogeneidad intratumoral (mutaciones presentes solo en algunas subclonas) es clínicamente relevante porque puede explicar por qué algunas células tumorales escapan a una terapia dirigida a una alteración específica."
+                }
+              ]
             }
           ]
         },
@@ -3257,6 +3507,256 @@ const courseData = {
                   "explanation": "El gen <em>blaKPC</em> codifica la carbapenemasa de <em>Klebsiella pneumoniae</em> (KPC), siendo el blanco molecular primario en PCR para la confirmación de enterobacterias resistentes a carbapenémicos."
                 }
               ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 446,
+                  "question": "Comparando un antibiograma por difusión en disco (Kirby-Bauer) con un método de determinación de la CMI (dilución en caldo), ¿qué información adicional proporciona el segundo que el primero no ofrece directamente?",
+                  "options": [
+                    "El halo de inhibición en milímetros",
+                    "El valor numérico exacto de la concentración mínima inhibitoria, mientras que Kirby-Bauer solo ofrece una categoría cualitativa (S/I/R)",
+                    "La especie bacteriana exacta del aislamiento",
+                    "Ninguna diferencia relevante entre ambos métodos"
+                  ],
+                  "correct": 1,
+                  "explanation": "La CMI aporta un dato cuantitativo (concentración exacta), útil para ajustar dosis o comparar entre fármacos, mientras que Kirby-Bauer solo clasifica en categorías."
+                },
+                {
+                  "id": 447,
+                  "question": "Si dos antibióticos distintos producen el mismo halo de inhibición en milímetros frente a la misma bacteria, ¿se puede concluir que ambos son igual de efectivos?",
+                  "options": [
+                    "Sí, un halo igual siempre implica efectividad idéntica",
+                    "No, porque los puntos de corte (breakpoints) son específicos para cada fármaco; el mismo halo puede significar \"sensible\" para uno y \"resistente\" para otro",
+                    "Sí, porque el tamaño del halo es una medida absoluta y universal",
+                    "No se puede determinar sin conocer el peso molecular del paciente"
+                  ],
+                  "correct": 1,
+                  "explanation": "Cada antibiótico tiene su propia tabla de puntos de corte estandarizados (CLSI/EUCAST); el mismo halo puede interpretarse de forma distinta según el fármaco."
+                },
+                {
+                  "id": 448,
+                  "question": "Comparando la interpretación de un antibiótico reportado como \"sensible\" en sangre frente al mismo fármaco en orina, cuando este tiene baja penetración tisular sistémica, ¿qué se predice sobre su utilidad clínica en cada sitio?",
+                  "options": [
+                    "Es igual de útil en ambos sitios sin ninguna diferencia",
+                    "Puede ser útil en orina, donde se concentra (como la nitrofurantoína), pero inútil en sangre/tejidos si no alcanza concentraciones terapéuticas sistémicas",
+                    "Nunca es útil en orina si no lo es en sangre",
+                    "La interpretación no depende del sitio de infección"
+                  ],
+                  "correct": 1,
+                  "explanation": "La utilidad clínica depende de la farmacocinética del fármaco en cada sitio; algunos antibióticos se concentran selectivamente en la orina sin alcanzar niveles útiles en sangre."
+                },
+                {
+                  "id": 449,
+                  "question": "Un antibiograma reporta E. coli sensible a ciprofloxacina y a nitrofurantoína para una cistitis no complicada. ¿Qué criterio, más allá de la sensibilidad reportada, debe aplicarse para elegir el fármaco de primera línea?",
+                  "options": [
+                    "Elegir siempre el de mayor halo de inhibición",
+                    "El principio de menor espectro y preservación de fluoroquinolonas: preferir nitrofurantoína para no generar presión selectiva innecesaria sobre las fluoroquinolonas",
+                    "Elegir el más costoso, asumiendo mayor eficacia",
+                    "Elegir cualquiera de los dos de forma indistinta"
+                  ],
+                  "correct": 1,
+                  "explanation": "Ante igual sensibilidad, se prefiere el antibiótico de espectro más reducido y mejor perfil para la indicación específica, reservando las fluoroquinolonas para casos que las requieran."
+                },
+                {
+                  "id": 450,
+                  "question": "Comparando un sistema automatizado (ej. VITEK 2) con el método manual de Kirby-Bauer, ¿qué limitación clínica comparten ambos frente a mecanismos de resistencia inducibles o de baja expresión?",
+                  "options": [
+                    "Ninguno de los dos tiene esta limitación",
+                    "Ambos pueden no detectar resistencia inducible o de baja expresión sin pruebas confirmatorias adicionales",
+                    "Solo el método automatizado tiene esta limitación",
+                    "Solo el método manual tiene esta limitación"
+                  ],
+                  "correct": 1,
+                  "explanation": "Tanto los sistemas automatizados como los manuales pueden requerir pruebas suplementarias (ej. disco de cefoxitina) para detectar resistencias inducibles o heterogéneas."
+                },
+                {
+                  "id": 451,
+                  "question": "Si el resultado de un antibiótico se interpreta como \"Intermedio (I)\" en lugar de \"Sensible (S)\", ¿qué implica esto para la decisión terapéutica?",
+                  "options": [
+                    "Es equivalente a \"Resistente\" y debe descartarse por completo",
+                    "Puede requerir dosis más altas, mayor frecuencia de administración, o considerarse solo si el fármaco se concentra bien en el sitio de infección",
+                    "Es equivalente a \"Sensible\" sin ninguna consideración adicional",
+                    "Significa que el laboratorio cometió un error y debe repetirse la prueba"
+                  ],
+                  "correct": 1,
+                  "explanation": "La categoría \"Intermedio\" sugiere que el fármaco podría funcionar en ciertas condiciones (dosis altas, sitios de concentración farmacológica), pero con menor margen de seguridad que \"Sensible\"."
+                },
+                {
+                  "id": 452,
+                  "question": "Comparando un aislamiento de Klebsiella pneumoniae productor de BLEE con otro productor de carbapenemasa, ¿qué opciones terapéuticas quedan disponibles frente a cada uno?",
+                  "options": [
+                    "Ambos dejan las mismas opciones terapéuticas disponibles",
+                    "Frente a BLEE, los carbapenémicos siguen siendo eficaces; frente a carbapenemasa, se pierde también la eficacia de los carbapenémicos, dejando opciones muy limitadas",
+                    "Frente a carbapenemasa, cualquier betalactámico sigue funcionando normalmente",
+                    "El productor de BLEE no requiere ningún tratamiento antibiótico"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las BLEE respetan a los carbapenémicos, que siguen siendo de elección; las carbapenemasas hidrolizan también a estos, dejando opciones terapéuticas muy reducidas."
+                },
+                {
+                  "id": 453,
+                  "question": "Comparando el uso empírico de un antibiótico de amplio espectro con el uso de uno de espectro reducido dirigido tras el antibiograma, ¿qué efecto se predice sobre la presión de selección de resistencia a nivel poblacional?",
+                  "options": [
+                    "No hay diferencia en la presión de selección entre ambos enfoques",
+                    "El de amplio espectro genera mayor presión selectiva sobre la flora comensal y mayor riesgo de selección de multirresistencia; el dirigido minimiza este efecto",
+                    "El dirigido genera mayor presión de selección que el de amplio espectro",
+                    "Solo el uso ambulatorio genera presión de selección, no el hospitalario"
+                  ],
+                  "correct": 1,
+                  "explanation": "El desescalamiento a un antibiótico de espectro reducido tras el antibiograma reduce el impacto sobre la microbiota y la presión selectiva sobre bacterias resistentes."
+                },
+                {
+                  "id": 454,
+                  "question": "Un antibiograma reporta un halo relativamente grande para ampicilina en un aislamiento de Enterococcus, pero la categoría final es \"Resistente\". ¿Qué explica esta aparente contradicción?",
+                  "options": [
+                    "Es un error de laboratorio, un halo grande siempre implica sensibilidad",
+                    "El tamaño absoluto del halo no determina la categoría; cada fármaco tiene su propia escala de puntos de corte, por lo que un halo \"grande\" puede seguir siendo resistente si el punto de corte de ese fármaco es más exigente",
+                    "Enterococcus nunca puede ser resistente a ampicilina",
+                    "El halo grande siempre indica un error técnico en la prueba"
+                  ],
+                  "correct": 1,
+                  "explanation": "La interpretación depende de los puntos de corte estandarizados específicos para cada combinación fármaco-microorganismo, no del tamaño absoluto del halo."
+                },
+                {
+                  "id": 455,
+                  "question": "Comparando el uso de un antibiótico bactericida frente a uno bacteriostático en un paciente neutropénico grave, ¿por qué se prefiere típicamente el bactericida en este contexto?",
+                  "options": [
+                    "Porque los bacteriostáticos son siempre más tóxicos",
+                    "Porque el paciente neutropénico no cuenta con un sistema inmune funcional para completar la eliminación de las bacterias solo inhibidas por el bacteriostático, por lo que se necesita un fármaco que las destruya directamente",
+                    "Porque los bactericidas nunca generan resistencia",
+                    "No hay ninguna razón clínica para preferir uno sobre otro en este contexto"
+                  ],
+                  "correct": 1,
+                  "explanation": "En pacientes inmunocomprometidos que no pueden apoyarse en su sistema inmune para eliminar bacterias inhibidas, se prefieren los antibióticos bactericidas, que destruyen directamente al patógeno."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 456,
+                  "question": "Paciente femenina de 24 años con cistitis no complicada. El antibiograma reporta Ciprofloxacina (30 mm, S) y Nitrofurantoína (20 mm, S). El médico prescribe ciprofloxacina \"porque tiene el halo más grande\". ¿Qué error se cometió y cuál sería la conducta correcta?",
+                  "options": [
+                    "Ningún error, el halo más grande siempre es la mejor opción",
+                    "Se eligió por tamaño de halo en vez de por criterio de menor espectro; debió preferirse nitrofurantoína, de primera línea para cistitis no complicada, preservando las fluoroquinolonas",
+                    "El error fue no haber usado ambos antibióticos combinados",
+                    "El error fue no repetir el antibiograma antes de prescribir"
+                  ],
+                  "correct": 1,
+                  "explanation": "Ante igual sensibilidad, el criterio correcto es el de menor espectro, no el tamaño del halo; la nitrofurantoína es de elección en cistitis no complicada."
+                },
+                {
+                  "id": 457,
+                  "question": "Un paciente hospitalizado con neumonía nosocomial tiene un aislado de Pseudomonas aeruginosa resistente a betalactámicos, aminoglucósidos y fluoroquinolonas, pero sensible a colistina. ¿Cómo se clasifica epidemiológicamente este aislado y qué implica para el manejo?",
+                  "options": [
+                    "Se clasifica como sensible estándar y se maneja con cualquier betalactámico",
+                    "Se clasifica como multirresistente (MDR) o incluso de resistencia extendida (XDR); implica manejo con antibióticos de \"última línea\" (colistina) y medidas estrictas de control de infecciones",
+                    "Se clasifica como panresistente (PDR) y no existe ningún tratamiento posible",
+                    "No requiere ninguna medida de aislamiento adicional"
+                  ],
+                  "correct": 1,
+                  "explanation": "Al ser resistente a múltiples categorías de antibióticos pero conservar sensibilidad a colistina, se clasifica como MDR/XDR, requiriendo terapia de reserva y control estricto de infecciones."
+                },
+                {
+                  "id": 458,
+                  "question": "En un paciente con meningitis bacteriana, el antibiograma reporta un antibiótico como \"Sensible\" in vitro, pero el clínico decide no utilizarlo. ¿Qué otra variable, más allá de la sensibilidad, pudo motivar esta decisión?",
+                  "options": [
+                    "El costo del medicamento exclusivamente",
+                    "La penetración del fármaco a través de la barrera hematoencefálica; un fármaco \"sensible\" in vitro puede no alcanzar concentraciones terapéuticas en el LCR",
+                    "El color de la presentación del medicamento",
+                    "El antibiograma nunca puede ser cuestionado por el clínico"
+                  ],
+                  "correct": 1,
+                  "explanation": "La sensibilidad in vitro no garantiza eficacia clínica si el fármaco no penetra adecuadamente al sitio de infección, como ocurre con la barrera hematoencefálica."
+                },
+                {
+                  "id": 459,
+                  "question": "Un paciente con alergia documentada a penicilinas tiene un antibiograma que reporta a la penicilina como la opción \"Sensible\" más barata y de espectro reducido. ¿Por qué no debe usarse a pesar del resultado favorable?",
+                  "options": [
+                    "Porque el antibiograma nunca debe considerarse confiable",
+                    "Porque el antibiograma no contempla la seguridad individual del paciente; una alergia documentada contraindica su uso independientemente del resultado de sensibilidad",
+                    "Porque la penicilina nunca es efectiva contra ninguna bacteria",
+                    "Porque el precio bajo siempre indica menor calidad del fármaco"
+                  ],
+                  "correct": 1,
+                  "explanation": "El reporte de laboratorio orienta pero no reemplaza la evaluación clínica de seguridad del paciente, incluyendo antecedentes de alergias."
+                },
+                {
+                  "id": 460,
+                  "question": "En una UCI se detecta un brote de Klebsiella pneumoniae productora de BLEE en varios pacientes. Más allá del tratamiento antibiótico individual, ¿qué medida es prioritaria para contener la diseminación?",
+                  "options": [
+                    "Aumentar la dosis de antibióticos en todos los pacientes de la UCI",
+                    "Precauciones de contacto (aislamiento, higiene de manos, uso de bata/guantes) y programas de optimización de antimicrobianos (PROA)",
+                    "Suspender todos los antibióticos en la unidad de forma preventiva",
+                    "Trasladar a todos los pacientes a otro hospital"
+                  ],
+                  "correct": 1,
+                  "explanation": "El control de brotes nosocomiales por bacterias multirresistentes requiere medidas de aislamiento de contacto y estrategias institucionales de uso racional de antimicrobianos."
+                },
+                {
+                  "id": 461,
+                  "question": "Una paciente embarazada con infección de vías urinarias tiene un antibiograma que reporta a las fluoroquinolonas como la opción más sensible. ¿Por qué el clínico debe descartar esta opción a pesar del resultado de laboratorio?",
+                  "options": [
+                    "Porque las fluoroquinolonas nunca son efectivas contra bacterias urinarias",
+                    "Porque las fluoroquinolonas están contraindicadas en el embarazo por su potencial toxicidad sobre el desarrollo del cartílago fetal, independientemente de la sensibilidad reportada",
+                    "Porque el embarazo hace que todos los antibióticos sean inútiles",
+                    "No hay ninguna razón para descartarlas, deben usarse siempre que sean sensibles"
+                  ],
+                  "correct": 1,
+                  "explanation": "La seguridad del fármaco en poblaciones especiales (embarazo) debe integrarse a la decisión terapéutica, más allá del resultado de sensibilidad in vitro."
+                },
+                {
+                  "id": 462,
+                  "question": "Un paciente con función renal disminuida recibe un aminoglucósido reportado como \"Sensible\". ¿Qué ajuste es imprescindible antes de administrarlo?",
+                  "options": [
+                    "Ninguno, el antibiograma ya garantiza una dosis segura",
+                    "Ajustar la dosis y/o el intervalo de administración según la función renal, dado que los aminoglucósidos se eliminan por vía renal y tienen estrecho margen terapéutico",
+                    "Duplicar la dosis estándar para compensar la falla renal",
+                    "Cambiar la vía de administración a oral exclusivamente"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los aminoglucósidos requieren ajuste de dosis en insuficiencia renal por su eliminación renal y su estrecho margen entre eficacia y toxicidad (nefro/ototoxicidad)."
+                },
+                {
+                  "id": 463,
+                  "question": "Un paciente con endocarditis por Enterococcus resistente a vancomicina (VRE) es diagnosticado. ¿Qué implica este hallazgo para las opciones terapéuticas y la conducta clínica?",
+                  "options": [
+                    "Implica que no existe ningún tratamiento disponible",
+                    "Implica recurrir a antibióticos de reserva (linezolid, daptomicina) y reforzar medidas de aislamiento de contacto por el riesgo de transmisión de VRE",
+                    "Implica que puede tratarse con cualquier betalactámico estándar",
+                    "Implica suspender toda medida de aislamiento, ya que VRE no se transmite entre pacientes"
+                  ],
+                  "correct": 1,
+                  "explanation": "La resistencia a vancomicina en Enterococcus obliga a usar antibióticos de reserva y a reforzar las precauciones de contacto, dado el riesgo de diseminación nosocomial de VRE."
+                },
+                {
+                  "id": 464,
+                  "question": "Un paciente con infección de piel y tejidos blandos por MRSA comunitario recibe tratamiento empírico con cefalexina mientras se espera el antibiograma. ¿Por qué esta elección empírica es probablemente inadecuada?",
+                  "options": [
+                    "Porque la cefalexina no existe como antibiótico real",
+                    "Porque MRSA expresa PBP2a con baja afinidad por todos los betalactámicos estándar, incluidas las cefalosporinas, por lo que la cefalexina no sería efectiva",
+                    "Porque la cefalexina solo se usa en infecciones urinarias",
+                    "Porque MRSA es sensible a todos los betalactámicos sin excepción"
+                  ],
+                  "correct": 1,
+                  "explanation": "El mecanismo de resistencia de MRSA (PBP2a) afecta a todos los betalactámicos estándar, por lo que se requieren alternativas activas frente a MRSA (clindamicina, TMP-SMX, vancomicina según gravedad)."
+                },
+                {
+                  "id": 465,
+                  "question": "Un residente interpreta un antibiograma comparando únicamente el tamaño visual de los halos, eligiendo el de mayor diámetro sin revisar la tabla de puntos de corte. Su tutor lo corrige. ¿Cuál es el mensaje clave que debe transmitirle?",
+                  "options": [
+                    "Que siempre debe elegirse el antibiótico más caro disponible",
+                    "Que \"el antibiograma orienta, no ordena\": la interpretación debe basarse en los puntos de corte estandarizados de cada fármaco y en el contexto clínico del paciente, no en el tamaño absoluto del halo",
+                    "Que el tamaño del halo es el único criterio válido para elegir un antibiótico",
+                    "Que los antibiogramas ya no son necesarios si se conoce la especie bacteriana"
+                  ],
+                  "correct": 1,
+                  "explanation": "La interpretación correcta del antibiograma exige comparar contra los puntos de corte específicos de cada fármaco e integrar la condición clínica del paciente, nunca guiarse solo por el tamaño del halo."
+                }
+              ]
             }
           ]
         },
@@ -3895,6 +4395,256 @@ const courseData = {
                   "explanation": "La matriz de exopolisacáridos (EPS), eDNA y proteínas atrapa mecánicamente y retrasa la penetración de antibióticos cargados (como aminoglucósidos), además de albergar bacterias en estado de latencia (<em>persistentes</em>)."
                 }
               ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 466,
+                  "question": "Comparando la resistencia intrínseca con la adquirida, ¿qué se predice sobre el resultado de antibiogramas repetidos en el tiempo para una misma especie bacteriana?",
+                  "options": [
+                    "En ambos casos el resultado variará constantemente",
+                    "En la intrínseca el resultado será constante en el tiempo (propiedad fija de la especie); en la adquirida el patrón puede cambiar entre aislamientos en distintos momentos",
+                    "En la adquirida el resultado siempre será constante y en la intrínseca variable",
+                    "Ninguna de las dos puede evaluarse mediante antibiogramas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La resistencia intrínseca es una característica estable de la especie; la adquirida puede aparecer, desaparecer o modificarse según la presión selectiva ejercida en cada momento."
+                },
+                {
+                  "id": 467,
+                  "question": "Si una bacteria desarrolla simultáneamente una bomba de eflujo activa y una disminución de porinas, ¿qué efecto combinado se predice sobre la concentración intracelular del antibiótico?",
+                  "options": [
+                    "Ningún efecto adicional respecto a tener solo uno de los mecanismos",
+                    "Efecto sinérgico: menor entrada del fármaco (porinas) más mayor salida activa (eflujo) resulta en una concentración intracelular mucho menor que con cualquiera de los mecanismos por separado",
+                    "El efecto se anula mutuamente, dejando la concentración intracelular sin cambios",
+                    "Solo se reduce la concentración extracelular, no la intracelular"
+                  ],
+                  "correct": 1,
+                  "explanation": "La combinación de menor entrada y mayor salida del fármaco produce un efecto sinérgico que reduce drásticamente la concentración intracelular efectiva del antibiótico."
+                },
+                {
+                  "id": 468,
+                  "question": "Comparando la transferencia de resistencia por conjugación con la transformación, ¿qué diferencia se predice en cuanto a la necesidad de contacto físico entre bacterias?",
+                  "options": [
+                    "Ambas requieren contacto físico directo",
+                    "La conjugación requiere contacto físico directo (pili sexual) para transferir plásmidos; la transformación no requiere contacto, ya que la bacteria capta ADN libre del medio",
+                    "La transformación requiere contacto físico y la conjugación no",
+                    "Ninguna de las dos requiere ADN extracromosómico"
+                  ],
+                  "correct": 1,
+                  "explanation": "La conjugación es un mecanismo de transferencia directa mediada por contacto físico; la transformación implica la captación de ADN libre presente en el ambiente, sin contacto celular."
+                },
+                {
+                  "id": 469,
+                  "question": "Si un plásmido de resistencia se transfiere por conjugación entre especies bacterianas distintas (por ejemplo, de E. coli a Klebsiella), ¿qué predice esto sobre la velocidad de diseminación de la resistencia en un ambiente hospitalario?",
+                  "options": [
+                    "Predice que la resistencia quedará limitada exclusivamente a E. coli",
+                    "Predice una diseminación potencialmente rápida e interespecie, ya que el material genético móvil no está limitado a una sola especie bacteriana",
+                    "Predice que la resistencia nunca podrá diseminarse fuera del paciente índice",
+                    "No tiene ningún impacto epidemiológico relevante"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los plásmidos conjugativos pueden transferirse entre especies distintas, facilitando una diseminación rápida y amplia de genes de resistencia en el entorno hospitalario."
+                },
+                {
+                  "id": 470,
+                  "question": "Comparando una betalactamasa de espectro extendido (BLEE) con una carbapenemasa en términos de espectro de sustrato, ¿qué opciones terapéuticas quedan disponibles frente a cada una?",
+                  "options": [
+                    "Ambas dejan exactamente las mismas opciones terapéuticas",
+                    "Frente a BLEE, los carbapenémicos siguen siendo eficaces; frente a carbapenemasas, se pierden incluso los carbapenémicos, dejando opciones muy limitadas",
+                    "Frente a carbapenemasa, cualquier penicilina sigue siendo eficaz",
+                    "La BLEE no afecta a ningún betalactámico"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las BLEE respetan a los carbapenémicos; las carbapenemasas los inactivan también, reduciendo drásticamente las opciones terapéuticas disponibles."
+                },
+                {
+                  "id": 471,
+                  "question": "Comparando el enfoque \"Una Salud\" (One Health) con un enfoque exclusivamente clínico-hospitalario para abordar la resistencia antimicrobiana, ¿qué diferencia se predice en el alcance de las intervenciones?",
+                  "options": [
+                    "Ambos enfoques tienen exactamente el mismo alcance",
+                    "\"Una Salud\" integra la salud humana, animal y ambiental (incluyendo el uso en agricultura/ganadería); el enfoque clínico-hospitalario se limita al uso terapéutico en pacientes",
+                    "El enfoque clínico-hospitalario abarca más fuentes de resistencia que \"Una Salud\"",
+                    "Ninguno de los dos enfoques considera el uso de antibióticos en animales"
+                  ],
+                  "correct": 1,
+                  "explanation": "El enfoque \"Una Salud\" reconoce que la resistencia surge y se disemina a través de múltiples sectores interconectados, no solo en el ámbito clínico humano."
+                },
+                {
+                  "id": 472,
+                  "question": "Comparando la modificación del sitio blanco en MRSA (PBP2a) con la de VRE (D-Ala-D-Lactato), ¿qué tienen en común ambos mecanismos en términos de estrategia bioquímica?",
+                  "options": [
+                    "Ambos degradan enzimáticamente el antibiótico",
+                    "Ambos alteran estructuralmente el sitio de unión del antibiótico para reducir su afinidad, en lugar de destruir o expulsar el fármaco",
+                    "Ambos expulsan activamente el fármaco mediante bombas de eflujo",
+                    "Ninguno de los dos afecta la afinidad del fármaco por su blanco"
+                  ],
+                  "correct": 1,
+                  "explanation": "Tanto PBP2a en MRSA como el precursor modificado en VRE representan alteraciones estructurales del sitio blanco que reducen la afinidad de unión del antibiótico, sin destruirlo ni expulsarlo."
+                },
+                {
+                  "id": 473,
+                  "question": "Si una bacteria adquiere un gen de resistencia mediante un bacteriófago (transducción), ¿qué predice esto sobre la posibilidad de que la resistencia se disemine entre especies muy distintas?",
+                  "options": [
+                    "Se disemina siempre con la misma facilidad que por conjugación",
+                    "La transducción suele estar limitada por la especificidad del bacteriófago por su hospedador, por lo que la diseminación interespecie suele ser más restringida que con plásmidos conjugativos",
+                    "La transducción es el mecanismo más eficiente para diseminar resistencia entre especies distintas",
+                    "La transducción no puede transferir genes de resistencia bajo ninguna circunstancia"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los bacteriófagos suelen tener un rango de hospedador limitado, lo que restringe la diseminación interespecie de la resistencia adquirida por transducción, en comparación con los plásmidos conjugativos."
+                },
+                {
+                  "id": 474,
+                  "question": "Comparando el uso profiláctico de antibióticos en ganadería con el uso terapéutico dirigido en humanos, ¿qué efecto diferencial se predice sobre la presión de selección de resistencia?",
+                  "options": [
+                    "Ambos generan exactamente la misma presión de selección",
+                    "El uso profiláctico masivo en ganadería, a menudo subterapéutico y prolongado, genera una presión de selección más amplia y sostenida que favorece la aparición y diseminación de resistencia",
+                    "El uso terapéutico dirigido en humanos genera mayor presión de selección que el uso en ganadería",
+                    "Ninguno de los dos usos contribuye a la resistencia antimicrobiana"
+                  ],
+                  "correct": 1,
+                  "explanation": "El uso masivo y prolongado de antibióticos en ganadería, frecuentemente a dosis subterapéuticas, constituye una fuente importante y sostenida de presión selectiva sobre poblaciones bacterianas."
+                },
+                {
+                  "id": 475,
+                  "question": "Si dos cepas de la misma especie bacteriana muestran distinto perfil de resistencia, una con un plásmido de resistencia y otra sin él, ¿qué se predice sobre la reversibilidad de la resistencia si se elimina la presión antibiótica?",
+                  "options": [
+                    "La resistencia mediada por plásmido es siempre irreversible",
+                    "La resistencia mediada por plásmido puede perderse con el tiempo si no hay presión selectiva, especialmente si conlleva un costo metabólico (fitness cost), mientras que una mutación cromosómica estable persiste con mayor probabilidad",
+                    "Ambas formas de resistencia son igualmente estables sin presión selectiva",
+                    "La resistencia cromosómica se pierde más fácilmente que la plasmídica"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los plásmidos pueden perderse en ausencia de presión selectiva si representan una carga metabólica para la bacteria, mientras que las mutaciones cromosómicas tienden a ser más estables en el tiempo."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 476,
+                  "question": "Una granja avícola utiliza antibióticos de forma rutinaria como promotores de crecimiento en aves sanas. Meses después, se detectan cepas de E. coli multirresistentes en trabajadores de la granja sin exposición hospitalaria previa. ¿Qué concepto epidemiológico explica esta transmisión?",
+                  "options": [
+                    "No existe ninguna relación posible entre el uso animal y la resistencia humana",
+                    "El enfoque \"Una Salud\": el uso indiscriminado de antibióticos en animales selecciona cepas resistentes que pueden transmitirse a humanos por contacto directo, la cadena alimentaria o el ambiente",
+                    "Los trabajadores adquirieron la resistencia por mutación espontánea sin relación con la granja",
+                    "Solo el consumo de carne puede transmitir resistencia, nunca el contacto directo"
+                  ],
+                  "correct": 1,
+                  "explanation": "El enfoque \"Una Salud\" reconoce que la resistencia generada en el sector agropecuario puede transmitirse a los humanos a través de múltiples vías de contacto."
+                },
+                {
+                  "id": 477,
+                  "question": "Un paciente hospitalizado por tres semanas en UCI desarrolla una infección por Acinetobacter baumannii panresistente (PDR). ¿Qué factores del entorno hospitalario prolongado favorecieron probablemente esta selección?",
+                  "options": [
+                    "La ausencia total de uso de antibióticos durante la hospitalización",
+                    "El uso prolongado y múltiple de antibióticos de amplio espectro, la presión de selección continua propia del ambiente de UCI, y la posible transmisión cruzada nosocomial de cepas ya resistentes",
+                    "El uso de un único ciclo corto de antibióticos de espectro reducido",
+                    "La ausencia de cualquier procedimiento invasivo durante la estancia"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las estancias prolongadas en UCI, con uso repetido de antibióticos de amplio espectro y riesgo de transmisión cruzada, favorecen la selección de bacterias multi/panresistentes."
+                },
+                {
+                  "id": 478,
+                  "question": "Un paciente abandona un tratamiento antibiótico antes de completar los días indicados. Semanas después, la infección recurre con un aislamiento resistente al mismo fármaco. ¿Qué mecanismo de resistencia adquirida se vio favorecido por esta conducta?",
+                  "options": [
+                    "Ninguno, el abandono del tratamiento no influye en la resistencia",
+                    "La exposición a concentraciones subinhibitorias del antibiótico por el tratamiento incompleto ejerce presión selectiva que favorece la supervivencia y selección de subpoblaciones bacterianas con mutaciones de resistencia",
+                    "El abandono del tratamiento elimina por completo el riesgo de resistencia",
+                    "La resistencia solo puede desarrollarse con tratamientos completos y prolongados"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los tratamientos incompletos exponen a las bacterias a concentraciones subóptimas del fármaco, favoreciendo la selección de las subpoblaciones más resistentes que sobreviven a esa exposición parcial."
+                },
+                {
+                  "id": 479,
+                  "question": "En un hospital se identifica que varios pacientes de la misma sala desarrollan infecciones por la misma cepa de Klebsiella pneumoniae productora de carbapenemasa (KPC). ¿Qué mecanismo de transmisión debe investigarse, además de la transmisión cruzada por manos del personal?",
+                  "options": [
+                    "Ningún otro mecanismo es posible además del contacto directo",
+                    "La posible transferencia horizontal del gen de resistencia (plásmido) entre distintas bacterias presentes en el mismo entorno, además de la transmisión clonal de la misma cepa",
+                    "La resistencia solo pudo haberse originado de forma espontánea e independiente en cada paciente",
+                    "La transmisión únicamente pudo ocurrir por vía respiratoria"
+                  ],
+                  "correct": 1,
+                  "explanation": "Además de la diseminación clonal de una misma cepa, debe considerarse la transferencia horizontal de plásmidos de resistencia entre distintas bacterias coexistentes en el ambiente hospitalario."
+                },
+                {
+                  "id": 480,
+                  "question": "Un paciente con infección urinaria recurrente ha recibido múltiples ciclos de antibióticos de amplio espectro por automedicación en el último año. ¿Qué riesgo genera esta conducta a nivel individual y comunitario?",
+                  "options": [
+                    "Ningún riesgo, ya que los antibióticos de amplio espectro son siempre seguros",
+                    "A nivel individual, aumenta el riesgo de seleccionar cepas resistentes en su propia flora; a nivel comunitario, contribuye a la diseminación de resistencia mediante transferencia horizontal de genes entre bacterias",
+                    "Solo genera riesgo a nivel individual, nunca a nivel comunitario",
+                    "Reduce el riesgo de resistencia al exponer a las bacterias a múltiples fármacos distintos"
+                  ],
+                  "correct": 1,
+                  "explanation": "El uso repetido e indiscriminado de antibióticos de amplio espectro por automedicación favorece la selección de resistencia tanto en la flora propia del paciente como en la comunidad, por mecanismos de transferencia horizontal."
+                },
+                {
+                  "id": 481,
+                  "question": "Un paciente con neutropenia febril post-quimioterapia desarrolla bacteriemia por una cepa con una bomba de eflujo activa de amplio espectro. ¿Por qué este mecanismo es particularmente preocupante comparado con la inactivación enzimática de un solo fármaco?",
+                  "options": [
+                    "Porque las bombas de eflujo son menos frecuentes que las enzimas inactivadoras",
+                    "Porque las bombas de eflujo pueden conferir resistencia simultánea a múltiples familias de antibióticos no relacionadas estructuralmente, a diferencia de una enzima específica para una sola familia",
+                    "Porque las bombas de eflujo solo afectan a un único antibiótico específico",
+                    "Porque las bombas de eflujo no tienen impacto clínico real"
+                  ],
+                  "correct": 1,
+                  "explanation": "A diferencia de una enzima que suele inactivar una sola familia de antibióticos, las bombas de eflujo pueden expulsar simultáneamente fármacos de múltiples clases, generando resistencia de amplio espectro."
+                },
+                {
+                  "id": 482,
+                  "question": "En una comunidad rural con venta libre de antibióticos sin prescripción médica, ¿qué relación existe entre esta práctica y el desarrollo de resistencia antimicrobiana comunitaria?",
+                  "options": [
+                    "No existe ninguna relación entre la venta libre y la resistencia",
+                    "El uso indiscriminado, la automedicación y las dosis/duraciones inadecuadas favorecen la exposición subóptima de las bacterias al fármaco, promoviendo la selección y diseminación de cepas resistentes en la comunidad",
+                    "La venta libre de antibióticos reduce la resistencia al facilitar el acceso al tratamiento",
+                    "Solo el uso hospitalario de antibióticos contribuye a la resistencia comunitaria"
+                  ],
+                  "correct": 1,
+                  "explanation": "El acceso sin regulación a antibióticos favorece dosis y duraciones inadecuadas, generando presión selectiva subóptima que promueve la aparición de resistencia a nivel comunitario."
+                },
+                {
+                  "id": 483,
+                  "question": "Un paciente con fibrosis quística colonizado crónicamente con Pseudomonas aeruginosa desarrolla, con los años, resistencia progresiva a múltiples antibióticos usados repetidamente. ¿Qué fenómeno biológico explica esta evolución?",
+                  "options": [
+                    "La bacteria pierde espontáneamente su capacidad de causar infección",
+                    "La exposición repetida y prolongada al mismo fármaco o familia ejerce presión de selección continua sobre la población bacteriana colonizante, favoreciendo la acumulación progresiva de mecanismos de resistencia",
+                    "La resistencia progresiva no tiene relación con el uso repetido de antibióticos",
+                    "El paciente desarrolla inmunidad que hace innecesarios los antibióticos"
+                  ],
+                  "correct": 1,
+                  "explanation": "La exposición crónica y repetida a los mismos antibióticos en pacientes colonizados de forma persistente favorece la acumulación progresiva de mecanismos de resistencia en la población bacteriana."
+                },
+                {
+                  "id": 484,
+                  "question": "Un laboratorio detecta en un mismo paciente dos especies bacterianas distintas (E. coli y Klebsiella pneumoniae) portando el mismo gen de resistencia a carbapenémicos (blaKPC). ¿Qué mecanismo explica que especies diferentes compartan un gen idéntico de resistencia?",
+                  "options": [
+                    "Es imposible que dos especies distintas compartan el mismo gen de resistencia",
+                    "Transferencia horizontal de genes mediante un plásmido conjugativo compartido entre ambas especies, que puede colonizar el mismo huésped y transferirse independientemente de la especie bacteriana",
+                    "Ambas especies desarrollaron la misma mutación de forma independiente y simultánea por azar",
+                    "El gen fue transferido por transformación exclusivamente, sin participación de plásmidos"
+                  ],
+                  "correct": 1,
+                  "explanation": "La transferencia horizontal mediante plásmidos conjugativos permite que un mismo gen de resistencia se disemine entre especies bacterianas distintas que coexisten en el mismo huésped."
+                },
+                {
+                  "id": 485,
+                  "question": "Ante el aumento de infecciones por bacterias multirresistentes en su hospital, el comité de infecciones implementa un programa de optimización de antimicrobianos (PROA). ¿Qué objetivo epidemiológico busca principalmente esta estrategia?",
+                  "options": [
+                    "Aumentar el uso de antibióticos de amplio espectro en todos los pacientes",
+                    "Reducir la presión de selección antibiótica innecesaria mediante el uso racional (dosis, duración y espectro adecuados), disminuyendo así la aparición y diseminación de mecanismos de resistencia a nivel institucional",
+                    "Eliminar por completo el uso de antibióticos en el hospital",
+                    "Sustituir todos los antibióticos por antisépticos tópicos"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los programas de optimización de antimicrobianos (PROA) buscan racionalizar el uso de antibióticos para reducir la presión de selección y contener la aparición y diseminación de resistencia."
+                }
+              ]
             }
           ]
         }
@@ -3903,11 +4653,1564 @@ const courseData = {
     {
       "id": "semana3",
       "label": "SEMANA 03",
-      "icon": "＋",
-      "colorClass": "week-muted",
-      "title": "Próximamente",
-      "description": "Esta sección queda preparada para agregar los siguientes temas del curso.",
-      "modules": []
+      "icon": "🔬",
+      "colorClass": "week-green",
+      "title": "Micología, Parasitología y Farmacología Antiinfecciosa",
+      "description": "Estudia la biología de hongos y parásitos de importancia médica, junto con la farmacología de los antihelmínticos y antimicóticos.",
+      "modules": [
+        {
+          "id": "micologia",
+          "title": "Introducción a la Micología Médica",
+          "description": "Estudia la biología general de los hongos, su clasificación y reproducción, y las principales micosis superficiales, subcutáneas y sistémicas de interés clínico.",
+          "topics": [
+            "Biología fúngica: nutrición, condiciones de crecimiento y reproducción asexual",
+            "Clasificación de las micosis: superficiales, subcutáneas, intermedias y sistémicas",
+            "Diagnóstico micológico: KOH, tinta china, histopatología y cultivo",
+            "Patogenicidad fúngica, dimorfismo térmico y correlación clínica"
+          ],
+          "sections": [
+            {
+              "title": "Fundamentos Teóricos",
+              "questions": [
+                {
+                  "id": 306,
+                  "question": "¿Cuál es el rango de pH e intervalo de temperatura ideal para el crecimiento de la mayoría de los hongos?",
+                  "options": [
+                    "pH 7.2-7.8 y 37°C a 42°C",
+                    "pH 5.0-6.0 y 22°C a 32°C",
+                    "pH 3.0-4.0 y 4°C a 15°C",
+                    "pH 8.5-9.0 y 45°C a 55°C"
+                  ],
+                  "correct": 1,
+                  "explanation": "Según la presentación, la temperatura ideal para el crecimiento de los hongos es de 22-32°C y crecen en un pH óptimo de 5-6."
+                },
+                {
+                  "id": 307,
+                  "question": "¿Cómo se nutren los hongos desde el punto de vista metabólico?",
+                  "options": [
+                    "Por fagocitosis activa",
+                    "Por fotosíntesis oxigénica",
+                    "Por ósmosis (absorción)",
+                    "Por endocitosis mediada por receptores"
+                  ],
+                  "correct": 2,
+                  "explanation": "Los hongos son organismos heterótrofos que carecen de propiedad fotosintética y se nutren por ósmosis."
+                },
+                {
+                  "id": 308,
+                  "question": "¿Qué estructuras forman las talosporas en la reproducción asexual fúngica?",
+                  "options": [
+                    "Esporangiosporas y macroconidias",
+                    "Artrosporas, blastosporas y clamidosporas",
+                    "Microconidias y cuerpos escleróticos",
+                    "Cuerpos asteroides y hifas aseptadas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La diapositiva de reproducción asexuada clasifica las talosporas en artrosporas, blastosporas y clamidosporas."
+                },
+                {
+                  "id": 309,
+                  "question": "¿Cuál de los siguientes agentes etiológicos de micosis superficiales es una levadura lipofílica?",
+                  "options": [
+                    "Trichophyton rubrum",
+                    "Epidermophyton floccosum",
+                    "Malassezia spp.",
+                    "Microsporum canis"
+                  ],
+                  "correct": 2,
+                  "explanation": "Malassezia spp. es descrita en la tabla comparativa de micosis superficiales como una levadura lipofílica causante de Pitiriasis versicolor."
+                },
+                {
+                  "id": 310,
+                  "question": "¿Qué hallazgo microscópico en tejido es patognomónico de la Cromoblastomicosis?",
+                  "options": [
+                    "Levaduras en \"rueda de timón\"",
+                    "Cuerpos escleróticos o células en \"moneda de cobre\"",
+                    "Cuerpos asteroides",
+                    "Levaduras encapsuladas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla de micosis intermedias indica que el diagnóstico micológico e histopatológico de la cromoblastomicosis revela cuerpos escleróticos (células en \"moneda de cobre\")."
+                },
+                {
+                  "id": 311,
+                  "question": "¿Cuáles son los cuatro grupos principales de micosis profundas/sistémicas presentados en el texto?",
+                  "options": [
+                    "Tiñas, Piedras, Tinea negra y Candidiasis",
+                    "Esporotricosis, Cromoblastomicosis, Micetoma y Actinomicosis",
+                    "Candidiasis, Paracoccidioidomicosis, Histoplasmosis y Criptococosis",
+                    "Pitiriasis versicolor, Aspergilosis, Mucormicosis y Dermatofitosis"
+                  ],
+                  "correct": 2,
+                  "explanation": "En la diapositiva de \"Micosis profundas\" se listan expresamente: Candidiasis, Paracoccidioidomicosis, Histoplasmosis y Criptococosis."
+                },
+                {
+                  "id": 312,
+                  "question": "¿Cuál es el medio de cultivo estándar utilizado para el aislamiento de hongos mencionado en la guía?",
+                  "options": [
+                    "Agar MacConkey",
+                    "Agar Sabouraud / Mycosel",
+                    "Agar Sangre",
+                    "Agar Mueller-Hinton"
+                  ],
+                  "correct": 1,
+                  "explanation": "La diapositiva sobre diagnóstico muestra el cultivo en medios estandarizados como Sabouraud y Mycosel."
+                },
+                {
+                  "id": 313,
+                  "question": "¿Qué estructura microscópica característica presenta la fase levaduriforme de Paracoccidioides spp.?",
+                  "options": [
+                    "Cuerpos escleróticos oscuros",
+                    "Levadura multigemante con aspecto en \"rueda de timón\"",
+                    "Levaduras intracelulares dentro de macrófagos",
+                    "Hifas no septadas gruesas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla comparativa de micosis sistémicas especifica que Paracoccidioides spp. muestra en la microscopía una \"levadura multigemante (rueda de timón)\"."
+                },
+                {
+                  "id": 314,
+                  "question": "¿Qué determinante de patogenicidad fúngica actúa inhibiendo la tirosinasa y la formación del fagolisosoma?",
+                  "options": [
+                    "Queratinasa",
+                    "Melanina",
+                    "Adhesinas",
+                    "Pseudomicelios"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la lista de determinantes de patogenicidad se indica que la Melanina inhibe la tirosinasa e inhibe el fagolisosoma."
+                },
+                {
+                  "id": 315,
+                  "question": "¿Cuál es el principal sitio de infección y tipo de lesión de la Pitiriasis versicolor?",
+                  "options": [
+                    "Pelo y uñas con destrucción folicular",
+                    "Dermis profunda con fístulas y granos",
+                    "Estrato córneo con máculas hipo o hiperpigmentadas y fina descamación",
+                    "Mucosa oral con placas blanquecinas desprendibles"
+                  ],
+                  "correct": 2,
+                  "explanation": "En la tabla comparativa de micosis superficiales, el sitio de infección de Malassezia spp. es el estrato córneo y su lesión se describe como máculas hipo o hiperpigmentadas con fina descamación."
+                }
+              ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 316,
+                  "question": "Un laboratorio analiza una muestra de raspado cutáneo con KOH. Al microscopio se observan \"hifas cortas y levaduras\" en una disposición descrita clásicamente como \"espagueti y albóndigas\". ¿Qué enfermedad se debe diagnosticar?",
+                  "options": [
+                    "Dermatofitosis por <em>Trichophyton</em>",
+                    "Pitiriasis versicolor por <em>Malassezia spp.</em>",
+                    "Tinea nigra por hongos dematiáceos",
+                    "Esporotricosis cutánea"
+                  ],
+                  "correct": 1,
+                  "explanation": "La observación de \"levaduras y hifas cortas (espagueti y albóndigas)\" en examen directo con KOH es el diagnóstico micológico de la Pitiriasis versicolor."
+                },
+                {
+                  "id": 317,
+                  "question": "Al comparar el diagnóstico directo mediante KOH entre una Dermatofitosis y una Pitiriasis versicolor, ¿cuál es la diferencia microscópica fundamental?",
+                  "options": [
+                    "La Dermatofitosis muestra cisticercos y la Pitiriasis muestra granos negros",
+                    "La Dermatofitosis muestra hifas septadas; la Pitiriasis muestra levaduras y hifas cortas",
+                    "La Dermatofitosis presenta levaduras encapsuladas y la Pitiriasis bacterias filamentosas",
+                    "Ambas muestran la misma morfología pero varía el cultivo en Sabouraud"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla de la UNAB especifica que en la Dermatofitosis se observan \"hifas septadas\", mientras que en Pitiriasis versicolor se observan \"levaduras y hifas cortas\"."
+                },
+                {
+                  "id": 318,
+                  "question": "Un examen de esputo teñido con Tinta China revela células esféricas rodeadas por un halo transparente amplio (cápsula). ¿Qué microorganismo se predice encontrar y qué prueba confirmatoria rápida en suero/LCR está indicada?",
+                  "options": [
+                    "<em>Histoplasma capsulatum</em>; prueba de queratinasa",
+                    "<em>Cryptococcus neoformans</em>; Detección del antígeno CrAg",
+                    "<em>Paracoccidioides brasiliense</em>; cultivo en Agar MacConkey",
+                    "<em>Candida albicans</em>; coloración de Gram"
+                  ],
+                  "correct": 1,
+                  "explanation": "<em>Cryptococcus neoformans</em> se identifica como levadura encapsulada teñida con tinta china, y su diagnóstico confirmatorio rápido es el antígeno CrAg en LCR/suero."
+                },
+                {
+                  "id": 319,
+                  "question": "Al realizar la tinción e histopatología de un exudado purulento proveniente de un micetoma, se observan \"granos negros\". ¿Qué interpretación etiológica se concluye?",
+                  "options": [
+                    "Se trata de un actinomicetoma causado por bacterias (<em>Nocardia</em>, <em>Actinomyces</em>)",
+                    "Se trata de un eumetoma causado por hongos verdaderos (<em>Madurella</em>, <em>Scedosporium</em>)",
+                    "Es una infección viral secundaria a trauma vegetal",
+                    "Es una invasión por protozoarios apicomplexa"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la tabla comparativa de Micetomas se especifica que los granos negros corresponden a micetomas micóticos (hongos como <em>Madurella</em>), mientras que los granos amarillos o blancos corresponden a bacterias."
+                },
+                {
+                  "id": 320,
+                  "question": "¿Qué diferencia la vía de inoculación/ingreso de las micosis intermedias (como Esporotricosis) frente a las micosis profundas sistémicas (como Histoplasmosis)?",
+                  "options": [
+                    "Las intermedias entran por vía gastrointestinal y las profundas por la piel",
+                    "Las intermedias entran por trauma de piel (espinas/suelo) y las profundas por inhalación",
+                    "Las intermedias se transmiten por vectores y las profundas por contacto directo",
+                    "Ambas ingresan exclusivamente por la vía genitourinaria"
+                  ],
+                  "correct": 1,
+                  "explanation": "La Esporotricosis, Cromoblastomicosis y Micetoma ingresan por trauma cutáneo (vía inoculación), mientras que Paracoccidioidomicosis, Histoplasmosis y Criptococosis ingresan por inhalación."
+                },
+                {
+                  "id": 321,
+                  "question": "Si un hongo carece de la enzima queratinasa, ¿qué efecto se predice sobre su capacidad infectiva?",
+                  "options": [
+                    "No podrá invadir tejidos ricos en queratina como piel, pelo y uñas",
+                    "Se volverá inmune al tratamiento con antifúngicos tópicos",
+                    "Inhibirá automáticamente la fagocitosis en macrófagos",
+                    "Formará capsulas gruesas de polisacáridos"
+                  ],
+                  "correct": 0,
+                  "explanation": "Las queratinasas son enzimas y determinantes de patogenicidad que permiten a los dermatofitos degradar la queratina e infectar la piel, pelo y uñas."
+                },
+                {
+                  "id": 322,
+                  "question": "Un informe de biopsia pulmonar describe \"levaduras pequeñas intracelulares dentro de macrófagos\". ¿Cuál es el patógeno causante?",
+                  "options": [
+                    "<em>Cryptococcus gattii</em>",
+                    "<em>Paracoccidioides spp.</em>",
+                    "<em>Histoplasma capsulatum</em>",
+                    "<em>Sporothrix schenckii</em>"
+                  ],
+                  "correct": 2,
+                  "explanation": "En la tabla comparativa de micosis sistémicas, la microscopía diagnóstica de Histoplasmosis se caracteriza por \"levaduras intracelulares en macrófagos\"."
+                },
+                {
+                  "id": 323,
+                  "question": "¿Cuál es el mecanismo de patogenicidad mediante el cual la cáscara/cápsula de polisacáridos de <em>Cryptococcus</em> favorece la infección?",
+                  "options": [
+                    "Secreción de exotoxinas citolíticas",
+                    "Evasión de la respuesta inmune mediante inhibición de la phagocitosis",
+                    "Destrucción directa de las células epiteliales del estrato córneo",
+                    "Producción de hifas aseptadas de rápido crecimiento"
+                  ],
+                  "correct": 1,
+                  "explanation": "La diapositiva \"Determinantes de patogenicidad\" indica explícitamente que la cápsula actúa en la \"Evasión de la respuesta inmune\"."
+                },
+                {
+                  "id": 324,
+                  "question": "¿Por qué el tratamiento de la Pitiriasis versicolor se limita a antifúngicos tópicos, a diferencia de los dermatofitos severos que pueden requerir terapia sistémica?",
+                  "options": [
+                    "Porque <em>Malassezia spp.</em> se ubica únicamente en el estrato córneo superficial",
+                    "Porque la piel desprendida no permite el paso de fármacos sistémicos",
+                    "Porque <em>Malassezia spp.</em> destruye los vasos sanguíneos dérmicos",
+                    "Porque los dermatofitos no son seres eucariotas"
+                  ],
+                  "correct": 0,
+                  "explanation": "La tabla de la UNAB señala que el sitio de infección de Pitiriasis versicolor es el estrato córneo superficial, por lo que responde adecuadamente a antifúngicos tópicos."
+                },
+                {
+                  "id": 325,
+                  "question": "¿Qué hallazgo histopatológico caracteriza la infección por <em>Sporothrix schenckii</em> en muestras tisulares?",
+                  "options": [
+                    "Cuerpos escleróticos de color café",
+                    "Cuerpos asteroides",
+                    "Levaduras intracelulares en eritrocitos",
+                    "Granos amorfos con hifas no septadas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla de micosis intermedias menciona que en la histopatología de la esporotricosis se observan \"cuerpos asteroides\"."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 326,
+                  "question": "Caso Clínico 1: Un agricultor sufre una punción accidental en la mano derecha con una espina de rosal. Semanas después desarrolla un nódulo indoloro en el sitio de trauma y una cadena de nódulos eritematosos que siguen el trayecto linfático del brazo. ¿Qué micosis y agente se sospechan?",
+                  "options": [
+                    "Cromoblastomicosis por <em>Fonsecaea pedrosoi</em>",
+                    "Esporotricosis por <em>Sporothrix schenckii</em>",
+                    "Micetoma actinomicótico por <em>Nocardia</em>",
+                    "Histoplasmosis diseminada por <em>Histoplasma capsulatum</em>"
+                  ],
+                  "correct": 1,
+                  "explanation": "El cuadro de trauma con espinas de rosas y la aparición de nódulos en patrón esporotricoide (linfocutáneo) es la presentación clásica de <em>Sporothrix schenckii</em>."
+                },
+                {
+                  "id": 327,
+                  "question": "Caso Clínico 2: Paciente con VIH avanzado (recuento de CD4 < 50 cel/mm³) presenta cefalea intensa, fiebre y rigidez de nuca. La tinción de LCR con Tinta China es positiva para levaduras encapsuladas. ¿Qué patología padece y cuál fue su vía de ingreso más probable?",
+                  "options": [
+                    "Criptococosis (meningitis); vía inhalatoria por excrementos de palomas",
+                    "Paracoccidioidomicosis; vía trauma cutáneo",
+                    "Candidiasis meníngea; vía endógena intestinal",
+                    "Histoplasmosis cerebral; inoculación directa"
+                  ],
+                  "correct": 0,
+                  "explanation": "La Criptococosis provoca meningitis diseminada en inmunosuprimidos, la levadura es encapsulada (tinta china) y su vía de ingreso es inhalatoria a partir de excrementos de aves/palomas."
+                },
+                {
+                  "id": 328,
+                  "question": "Un paciente presenta una placa anular descamativa en la ingle con borde activo eritematoso. El médico sospecha dermatofitosis pero decide no solicitar laboratorio e iniciar esteroides tópicos. ¿Qué consecuencia patogénica se prevé?",
+                  "options": [
+                    "Erradicación completa del hongo al bloquear las queratinasas",
+                    "Empeoramiento y diseminación de la infección al suprimir la respuesta inmune local",
+                    "Transformación del dermatofito en hongo dimórfico",
+                    "Formación inmediata de cuerpos escleróticos en la epidermis"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los esteroides inhiben la respuesta inmune tisular; como la patogenia micótica requiere control inmunológico, el uso de esteroides exacerba las dermatofitosis (tiña incógnita)."
+                },
+                {
+                  "id": 329,
+                  "question": "Caso Clínico 3: Un trabajador de construcción en áreas rurales presenta úlceras dolorosas en la mucosa oral y lesiones pulmonares. El examen microscópico del exudado revela una levadura de gran tamaño con múltiples brotes periféricos adosados. ¿Cuál es el diagnóstico más probable?",
+                  "options": [
+                    "Criptococosis pulmonar",
+                    "Paracoccidioidomicosis",
+                    "Pitiriasis versicolor",
+                    "Histoplasmosis diseminada"
+                  ],
+                  "correct": 1,
+                  "explanation": "La Paracoccidioidomicosis ingresa por inhalación, genera lesiones en pulmón y úlceras mucosas en boca, y su microscopía muestra levaduras multigemantes en rueda de timón."
+                },
+                {
+                  "id": 330,
+                  "question": "¿Qué sucedería si un hongo dimórfico patógeno pierde la capacidad de realizar la transición morfológica de moho a levadura al ingresar al hospedador humano ($37^\\circ\\text{C}$)?",
+                  "options": [
+                    "Aumentaría masivamente su secreción de queratinasa",
+                    "Perdería su principal determinante de virulencia para establecer infección invasiva",
+                    "Desarrollaría resistencia a los antifúngicos por producción de melanina",
+                    "Produciría endotoxinas destructoras de macrófagos"
+                  ],
+                  "correct": 1,
+                  "explanation": "El dimorfismo es un determinante de patogenicidad crítico; la forma de levadura a $37^\\circ\\text{C}$ es la fase adaptada para sobrevivir y proliferar en los tejidos humanos."
+                },
+                {
+                  "id": 331,
+                  "question": "Caso Clínico 4: Un campesino acude por una lesión tumefacta en el pie derecho con múltiples orificios fistulosos que drenan pus y un material granular amarillento. Al examen microscópico se identifican estructuras filamentosas muy delgadas grampositivas. ¿Cómo clasifica clínicamente este caso?",
+                  "options": [
+                    "Eumetoma (Micetoma fúngico por <em>Madurella</em>)",
+                    "Actinomicetoma (Micetoma bacteriano por <em>Nocardia/Actinomyces</em>)",
+                    "Cromoblastomicosis verrugosa",
+                    "Esporotricosis fija cutánea"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los micetomas con drenaje de granos amarillos/blancos formados por estructuras filamentosas delgadas son actinomicetomas (causados por bacterias como <em>Nocardia</em> o <em>Actinomyces</em>)."
+                },
+                {
+                  "id": 332,
+                  "question": "Paciente masculino con manchas decoloradas (hipopigmentadas) en la espalda que se evidencian más tras la exposición solar en verano. El rascado de la piel desprende una fina descamación. ¿Qué mecanismo patogénico del hongo causa la alteración del color de la piel?",
+                  "options": [
+                    "Producción de queratinasa que destruye la dermis superficial",
+                    "Alteración de la producción de melanina por los metabolitos lipídicos de <em>Malassezia spp.</em>",
+                    "Invasión de macrófagos y fagocitosis de los melanosomas",
+                    "Formación de pseudomicelios obstructivos en los folículos pilosos"
+                  ],
+                  "correct": 1,
+                  "explanation": "<em>Malassezia spp.</em> produce ácidos dicarboxílicos que inhiben la tirocina en los melanocitos, generando las máculas hipopigmentadas características."
+                },
+                {
+                  "id": 333,
+                  "question": "Si un laboratorio reporta la presencia de \"hongos en la muestra\", pero el médico recuerda el principio patogénico fundamental: \"El hongo infecta al hombre por accidente y el cuerpo humano no produce endotoxinas ni exotoxinas fúngicas\", ¿cómo debe interpretarse la lesión observada en el paciente?",
+                  "options": [
+                    "El daño tisular es producto de las exotoxinas liberadas por el moho",
+                    "La enfermedad es resultado de la respuesta inmune del hospedador y sus productos metabólicos frente al hongo",
+                    "La lesión es causada por la proliferación de virus dentro de las hifas",
+                    "El hongo requiere obligatoriamente del cuerpo humano para completar su ciclo reproductivo"
+                  ],
+                  "correct": 1,
+                  "explanation": "La diapositiva \"Mecanismos de Patogenicidad\" señala que el cuerpo no es propicio para el hongo, no produce endotoxinas ni exotoxinas y la enfermedad es producto de la respuesta al hongo y sus productos metabólicos."
+                },
+                {
+                  "id": 334,
+                  "question": "Caso Clínico 5: Un ecologista explora cunas de murciélagos en una cueva abandonada. Semanas después presenta fiebre, tos y visceromegalia (hepatomegalia y esplenomegalia). La microscopía muestra levaduras pequeñas en el interior de los macrófagos tisulares. ¿Qué exposición epidemiológica determinó este cuadro?",
+                  "options": [
+                    "Inhalación de esporas de <em>Histoplasma capsulatum</em> presentes en guano de murciélago",
+                    "Trauma cutáneo con espinas contaminadas por <em>Sporothrix</em>",
+                    "Inhalación de excretas de paloma contaminadas con <em>Cryptococcus</em>",
+                    "Ingestión de agua con quistes de <em>Paracoccidioides</em>"
+                  ],
+                  "correct": 0,
+                  "explanation": "La inhalación de esporas en suelo contaminado con excretas de aves o murciélagos es el mecanismo de transmisión de <em>Histoplasma capsulatum</em>, el cual afecta pulmón, hígado y bazo."
+                },
+                {
+                  "id": 335,
+                  "question": "Un paciente inmunocomprometido desarrolla placas blanquecinas en la mucosa oral y el esófago (algodoncillo). La tinción de Gram revela levaduras en brotación con formación de pseudomicelios. ¿Por qué la presencia de pseudomicelios es relevante clínicamente?",
+                  "options": [
+                    "Indica que se trata de una dermatofitosis cutánea",
+                    "Es una forma de crecimiento y determinante de patogenicidad que facilita la invasión tisular de <em>Candida spp.</em>",
+                    "Demuestra la presencia de un actinomicetoma bacteriano",
+                    "Es una estructura reproductora sexual encargada de formar clamidosporas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La formación de pseudomicelios en <em>Candida</em> facilita la adherencia e invasión tisular, figurando en la lista de determinantes de patogenicidad de la micosis profunda/candidiasis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parasitologia",
+          "title": "Introducción a la Parasitología Médica",
+          "description": "Comprende los conceptos generales de los ciclos biológicos parasitarios y la clasificación de helmintos y protozoos de importancia médica.",
+          "topics": [
+            "Ciclos biológicos: monoxénico vs. heteroxénico, hospedador definitivo e intermediario",
+            "Clasificación de helmintos: Nematodos, Céstodos y Tremátodos",
+            "Clasificación de protozoos: flagelados, amebas, ciliados y Apicomplexa",
+            "Vías de infección, diagnóstico y correlación clínica de las principales parasitosis"
+          ],
+          "sections": [
+            {
+              "title": "Fundamentos Teóricos",
+              "questions": [
+                {
+                  "id": 336,
+                  "question": "¿Cómo se define un ciclo biológico heteroxénico en parasitología?",
+                  "options": [
+                    "Aquel que ocurre en un solo hospedador sin fases larvarias",
+                    "Desarrollo del parásito que requiere dos o más hospedadores de diferentes especies para completar su ciclo de vida",
+                    "Aquel que solo afecta a artrópodos vectores de vida libre",
+                    "Ciclo reproductor realizado exclusivamente en el medio ambiente"
+                  ],
+                  "correct": 1,
+                  "explanation": "La guía define explícitamente el ciclo heteroxénico como el \"desarrollo del parásito que requiere dos o más hospedadores de diferentes especies para completar su ciclo de vida\"."
+                },
+                {
+                  "id": 337,
+                  "question": "¿Qué diferencia taxonómica y estructural existe entre los Nematodos y los Céstodos?",
+                  "options": [
+                    "Los Nematodos son aplanados y hermafroditas; los Céstodos son cilíndricos de sexos separados",
+                    "Los Nematodos son cilíndricos con sexos separados; los Céstodos son aplanados, hermafroditas y segmentados",
+                    "Los Nematodos miden hasta 9 metros y los Céstodos máximo 35 cm",
+                    "Los Nematodos tienen ciclo heteroxénico obligatorio y los Céstodos monoxénico"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la tabla comparativa de helmintos se detalla que los Nematodos son cilíndricos, de sexos separados y cuerpo en unidad, mientras que los Céstodos son aplanados, hermafroditas y de cuerpo segmentado."
+                },
+                {
+                  "id": 338,
+                  "question": "¿Cuál de los siguientes protozoos pertenece al grupo de los Flagelados Kinetoplástidos (con kinetoplasto)?",
+                  "options": [
+                    "<em>Entamoeba histolytica</em>",
+                    "<em>Giardia lamblia</em>",
+                    "<em>Trypanosoma cruzi</em>",
+                    "<em>Balantidium coli</em>"
+                  ],
+                  "correct": 2,
+                  "explanation": "La diapositiva sobre flagelados divide el grupo en \"Con kinetoplasto\" (<em>Trypanosoma</em>, <em>Leishmania</em>) y \"Sin kinetoplasto\" (<em>Giardia</em>, <em>Trichomonas</em>)."
+                },
+                {
+                  "id": 339,
+                  "question": "¿Qué técnica diagnóstica es de elección para confirmar la presencia de <em>Enterobius vermicularis</em>?",
+                  "options": [
+                    "Examen coprológico por concentración",
+                    "Prueba de la cinta adhesiva (Método de Graham) en la región perianal",
+                    "Biopsia muscular",
+                    "Gota gruesa en sangre periférica"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la tabla comparativa de helmintos se especifica que la forma diagnóstica de <em>Enterobius vermicularis</em> se obtiene mediante la \"prueba de la cinta adhesiva (método de Graham)\"."
+                },
+                {
+                  "id": 340,
+                  "question": "¿Cuál es la forma infectante y la vía de ingreso de <em>Ascaris lumbricoides</em>?",
+                  "options": [
+                    "Larva filariforme (L3); penetración por la piel",
+                    "Huevo embrionado; ingestión fecal-oral",
+                    "Trophozoito; inoculación por picadura de insecto",
+                    "Larva rabditoide; transmisión transplacentaria"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla de intestinales de la UNAB indica que la forma infectante de <em>Ascaris lumbricoides</em> es el \"Huevo embrionado\" y su vía de ingreso es la \"Ingestión de huevos\"."
+                },
+                {
+                  "id": 341,
+                  "question": "¿Qué función cumple el Hospedador Definitivo en el ciclo de vida de un parásito?",
+                  "options": [
+                    "Organismo donde se desarrollan las fases larvarias o asexuales",
+                    "Organismo donde el parásito alcanza la fase adulta y realiza la reproducción sexual",
+                    "Vector mecánico que transporta el parásito en sus patas",
+                    "Ambiente inerte donde el huevo madura en el suelo"
+                  ],
+                  "correct": 1,
+                  "explanation": "En el esquema de ciclos heteroxénicos se define Hospedador Definitivo como el \"Organismo donde el parásito alcanza la fase adulta y realiza la reproducción (sexual)\"."
+                },
+                {
+                  "id": 342,
+                  "question": "¿Cuál es el único protozoo ciliado de importancia médica humana presentado en la guía?",
+                  "options": [
+                    "<em>Trichomonas vaginalis</em>",
+                    "<em>Balantidium coli</em>",
+                    "<em>Cryptosporidium parvum</em>",
+                    "<em>Acanthamoeba spp.</em>"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la lista de protozoos, <em>Balantidium coli</em> es señalado como el representante principal de los Ciliados."
+                },
+                {
+                  "id": 343,
+                  "question": "¿Qué partes anatómicas principales componen el cuerpo de un Céstodo adulto?",
+                  "options": [
+                    "Cabeza, tórax y abdomen",
+                    "Escólex, cuello y estróbilo",
+                    "Espícula, cutícula y ano",
+                    "Pseudopoyos, cilio y vacuola"
+                  ],
+                  "correct": 1,
+                  "explanation": "La diapositiva sobre Céstodos rotula sus tres partes morfológicas básicas: Escólex, Cuello y Estróbilo."
+                },
+                {
+                  "id": 344,
+                  "question": "¿Cuál de los siguientes nemátodos se diagnostica mediante el hallazgo de larvas rabditoides en heces frescas en lugar de huevos?",
+                  "options": [
+                    "<em>Trichuris trichiura</em>",
+                    "<em>Strongyloides stercoralis</em>",
+                    "<em>Necator americanus</em>",
+                    "<em>Enterobius vermicularis</em>"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla comparativa indica que la forma diagnóstica en heces para <em>Strongyloides stercoralis</em> es la \"Larva Rabditoide\"."
+                },
+                {
+                  "id": 345,
+                  "question": "¿Qué grupo de parásitos son metazoos invertebrados dotados de exoesqueleto articulado (patas articuladas)?",
+                  "options": [
+                    "Platelmintos",
+                    "Protozoos",
+                    "Artrópodos (Insectos, Arácnidos, Crustáceos)",
+                    "Nemátodos"
+                  ],
+                  "correct": 2,
+                  "explanation": "El esquema de clasificación de parásitos ubica a los Artrópodos dentro de los Metazoos, subdivididos en Insectos, Arácnidos y Crustáceos."
+                }
+              ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 346,
+                  "question": "¿Cuál es el hospedador definitivo y cuál el hospedador intermediario en el ciclo biológico de <em>Taenia solium</em>?",
+                  "options": [
+                    "Definitivo: Cerdo / Intermediario: Humano",
+                    "Definitivo: Humano / Intermediario: Cerdo",
+                    "Definitivo: Mosquito / Intermediario: Humano",
+                    "Definitivo: Humano / Intermediario: Mosquito"
+                  ],
+                  "correct": 1,
+                  "explanation": "El esquema de la UNAB especifica que en <em>Taenia solium</em>, el Humano es el Hospedador Definitivo (alberga el adulto en el intestino) y el Cerdo es el Hospedador Intermediario (alberga el cisticerco)."
+                },
+                {
+                  "id": 347,
+                  "question": "Al comparar el paso larvario tisular entre <em>Ascaris lumbricoides</em>, <em>Uncinarias</em> y <em>Strongyloides stercoralis</em>, ¿qué manifestación pulmonar clínica tienen en común durante su migración?",
+                  "options": [
+                    "Prolapso rectal masivo",
+                    "Síndrome de Löeffler (neumonitis eosinofílica durante el paso bronquial)",
+                    "Perforación intestinal",
+                    "Meningoencefalitis amebiana"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la tabla comparativa de <em>Ascaris</em>, <em>Uncinarias</em> y <em>Strongyloides</em>, los tres parásitos realizan el tránsito pulmonar (sangre → pulmón → tráquea) causando el \"Síndrome de Löeffler\"."
+                },
+                {
+                  "id": 348,
+                  "question": "¿Qué diferencia la vía de ingreso al cuerpo humano entre el huevo de <em>Trichuris trichiura</em> y la larva de <em>Ancylostoma duodenale</em>?",
+                  "options": [
+                    "<em>Trichuris</em> entra por picadura de insecto y <em>Ancylostoma</em> por la vía oral",
+                    "<em>Trichuris</em> entra por vía oral (ingestión de huevos) y <em>Ancylostoma</em> penetra por la piel (larva filariforme L3)",
+                    "Ambos penetran activamente por los poros de la piel",
+                    "Ambos ingresan mediante transfusión sanguínea"
+                  ],
+                  "correct": 1,
+                  "explanation": "En las tablas diagnósticas, <em>Trichuris trichiura</em> ingresa por vía fecal-oral mediante ingestión de huevos maduros, mientras que <em>Ancylostoma/Necator</em> ingresan por penetración cutánea de la larva filariforme (L3)."
+                },
+                {
+                  "id": 349,
+                  "question": "Un coprológico revela huevos de helmitos con morfología de \"barril\" o \"balón de fútbol americano\" con tapones mucosos bipolares. ¿Qué nemátodo se identifica?",
+                  "options": [
+                    "<em>Ascaris lumbricoides</em>",
+                    "<em>Trichuris trichiura</em> (Tricocéfalo)",
+                    "<em>Enterobius vermicularis</em>",
+                    "<em>Strongyloides stercoralis</em>"
+                  ],
+                  "correct": 1,
+                  "explanation": "La imagen de la diapositiva y la tabla identifican el huevo de <em>Trichuris trichiura</em> con su forma alargada típica y tapones polares prominentes."
+                },
+                {
+                  "id": 350,
+                  "question": "En el ciclo biológico de <em>Plasmodium spp.</em>, ¿por qué el mosquito <em>Anopheles</em> es clasificado como el hospedador definitivo?",
+                  "options": [
+                    "Porque es el organismo donde ocurre la reproducción sexual (esporogonia)",
+                    "Porque destruye los eritrocitos del humano",
+                    "Porque realiza la esquizogonia hepática",
+                    "Porque transmite quistes en sus heces"
+                  ],
+                  "correct": 0,
+                  "explanation": "El diagrama de ciclo heteroxénico en protozoos indica que el mosquito <em>Anopheles</em> es el hospedador definitivo porque en él se lleva a cabo la fase sexual (esporogonia) tras ingerir los gametocitos."
+                },
+                {
+                  "id": 351,
+                  "question": "Si una persona camina descalza sobre suelos húmedos contaminados con heces humanas en una zona rural, ¿qué parásitos helmintos tienen el riesgo directo de penetrar su piel?",
+                  "options": [
+                    "<em>Ascaris lumbricoides</em> y <em>Trichuris trichiura</em>",
+                    "Uncinarias (<em>Ancylostoma/Necator</em>) y <em>Strongyloides stercoralis</em>",
+                    "<em>Enterobius vermicularis</em> y <em>Taenia solium</em>",
+                    "<em>Giardia lamblia</em> y <em>Entamoeba histolytica</em>"
+                  ],
+                  "correct": 1,
+                  "explanation": "La tabla comparativa indica que las Uncinarias (<em>Ancylostoma/Necator</em>) y <em>Strongyloides stercoralis</em> tienen como vía de ingreso la \"penetración por la piel\" de la larva filariforme."
+                },
+                {
+                  "id": 352,
+                  "question": "¿Qué consecuencia patológica directa genera la fijación masiva de adultos de Uncinarias (<em>Ancylostoma / Necator</em>) en la mucosa del intestino delgado?",
+                  "options": [
+                    "Prolapso rectal por esfuerzo",
+                    "Anemia ferropénica por pérdida crónica de sangre",
+                    "Prurito anal nocturno",
+                    "Obstrucción mecánica del conducto colédoco"
+                  ],
+                  "correct": 1,
+                  "explanation": "En la tabla de diagnóstico clínico de nemátodos, las Uncinarias (<em>Ancylostoma/Necator</em>) se asocian directamente con \"Anemia ferropénica\"."
+                },
+                {
+                  "id": 353,
+                  "question": "¿Cómo se diferencian el grupo de los Protozoos y el de los Metazoos en la clasificación general?",
+                  "options": [
+                    "Protozoos son pluricelulares; Metazoos son unicelulares",
+                    "Protozoos son parásitos unicelulares; Metazoos son parásitos pluricelulares",
+                    "Protozoos solo son bacterias; Metazoos son solo hongos",
+                    "No existen diferencias taxonómicas entre ambos"
+                  ],
+                  "correct": 1,
+                  "explanation": "El organigrama de la UNAB clasifica a los Protozoos como \"Parásitos unicelulares\" y a los Metazoos como pluricelulares (Helmintos y Artrópodos)."
+                },
+                {
+                  "id": 354,
+                  "question": "¿Cuál de los siguientes protozoos pertenece al filo Apicomplexa y carece de estructuras visibles de locomoción (como flagelos o cilios) en su fase madura?",
+                  "options": [
+                    "<em>Giardia lamblia</em>",
+                    "<em>Toxoplasma gondii</em>",
+                    "<em>Trichomonas vaginalis</em>",
+                    "<em>Entamoeba histolytica</em>"
+                  ],
+                  "correct": 1,
+                  "explanation": "<em>Toxoplasma gondii</em> y <em>Plasmodium falciparum</em> están listados en el grupo de los Apicomplexa, los cuales no poseen cilios ni flagelos para locomoción libre."
+                },
+                {
+                  "id": 355,
+                  "question": "¿Qué hallazgo clínico diferencia la infección severa por <em>Trichuris trichiura</em> de la infección por <em>Enterobius vermicularis</em>?",
+                  "options": [
+                    "<em>Trichuris</em> causa disentería, anemia y prolapso rectal; <em>Enterobius</em> causa prurito anal nocturno",
+                    "<em>Trichuris</em> causa migración a la tráquea y <em>Enterobius</em> anemia severa",
+                    "<em>Trichuris</em> produce quistes cutáneos y <em>Enterobius</em> lesiones hepáticas",
+                    "Ambas presentan la misma sintomatología gastrointestinal"
+                  ],
+                  "correct": 0,
+                  "explanation": "La tabla comparativa indica que <em>Trichuris</em> ocasiona \"Disentería, anemia y prolapso rectal\", mientras que <em>Enterobius</em> produce \"Prurito anal intenso, especialmente nocturno\"."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 356,
+                  "question": "Caso Clínico 1: Niño de 6 años es llevado a consulta por presentar insomnio, irritabilidad y prurito anal intenso de predominio nocturno. La madre refiere haber visto pequeños \"hilos blancos móviles\" en la región perianal mientras el niño dormía. ¿Qué parásito es y cuál es la prueba recomendada?",
+                  "options": [
+                    "<em>Ascaris lumbricoides</em>; Coprológico simple",
+                    "<em>Enterobius vermicularis</em>; Cinta adhesiva de Graham",
+                    "<em>Strongyloides stercoralis</em>; Examen de esputo",
+                    "<em>Trichuris trichiura</em>; Rectoscopia"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las hembras de <em>Enterobius vermicularis</em> migran de noche a la región perianal a depositar huevos causando prurito nocturno; el diagnóstico de elección es la cinta de Graham."
+                },
+                {
+                  "id": 357,
+                  "question": "Caso Clínico 2: Paciente de 30 años en zona rural minera acude con astenia, fatiga extrema, palidez mucocutánea severa y hemoglobina de 6 g/dL. En heces se observan huevos ovalados de cubierta delgada de helmitos. ¿Cuál es el mecanismo de lesión que explica la anemia?",
+                  "options": [
+                    "Consumo del quilo intestinal por <em>Ascaris</em> de 35 cm",
+                    "Fijación de <em>Ancylostoma / Necator</em> con sus piezas bucales a los capilares de la mucosa intestinal produciendo sangrado continuo",
+                    "Destrucción directa de eritrocitos en el hígado por <em>Plasmodium</em>",
+                    "Prolapso del colon rectosigmoide"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las uncinarias poseen cápsulas bucales cortantes/dientes con los que se fijan a la mucosa del intestino delgado absorbiendo sangre y produciendo anemia ferropénica."
+                },
+                {
+                  "id": 358,
+                  "question": "Un paciente pediátrico desnutrido expulsa por la boca un gusano cilíndrico rosado de 25 cm de longitud. Días después presenta dolor abdominal agudo e incapacidad para canalizar gases. ¿Qué complicación mecánica se está desencadenando?",
+                  "options": [
+                    "Obstrucción intestinal por maza/ovillo de <em>Ascaris lumbricoides</em>",
+                    "Prolapso rectal por <em>Trichuris trichiura</em>",
+                    "Neumonitis eosinofílica severa",
+                    "Peritonitis amebiana por <em>Entamoeba</em>"
+                  ],
+                  "correct": 0,
+                  "explanation": "<em>Ascaris lumbricoides</em> es el nemátodo de mayor tamaño (hasta 35 cm); las altas cargas parasitaria forman ovillos que causan obstrucción intestinal mecánica."
+                },
+                {
+                  "id": 359,
+                  "question": "Un médico trata a una comunidad con alta prevalencia de parasitosis. Si se confirma que el parásito tiene un ciclo monoxénico, ¿qué medida de control de salud pública es la más efectiva?",
+                  "options": [
+                    "Eliminar a los mosquitos vectores mediante insecticidas",
+                    "Erradicar a los cerdos como hospedadores intermediarios",
+                    "Mejorar el saneamiento básico, agua potable y lavado de manos (romper transmisión directa humano-ambiente)",
+                    "Evitar el contacto con moluscos marinos"
+                  ],
+                  "correct": 2,
+                  "explanation": "Los ciclos monoxénicos requieren un solo hospedador (humano), por lo que las medidas de higiene, agua segura y disposición de excretas evitan el contagio fecal-oral directo."
+                },
+                {
+                  "id": 360,
+                  "question": "Caso Clínico 3: Niño de 4 años con desnutrición crónica y evacuaciones mucosanguinolentas frecuentes. Durante el esfuerzo con el pujo defecatorio, la madre observa la protrusión de una masa roja a través del ano. ¿Qué helminto se relaciona patogénicamente con este prolapso rectal?",
+                  "options": [
+                    "<em>Trichuris trichiura</em>",
+                    "<em>Enterobius vermicularis</em>",
+                    "<em>Ancylostoma duodenale</em>",
+                    "<em>Strongyloides stercoralis</em>"
+                  ],
+                  "correct": 0,
+                  "explanation": "La fijación masiva del extremo anterior de <em>Trichuris trichiura</em> en la mucosa del ciego/colon genera hipotonía muscular, disentería y prolapso rectal."
+                },
+                {
+                  "id": 361,
+                  "question": "¿Qué ocurriría en el diagnóstico coprológico si una muestra infectada por <em>Strongyloides stercoralis</em> no se procesa de inmediato y se deja a temperatura ambiente por varios días?",
+                  "options": [
+                    "Las larvas rabditoides se destruyen y desaparecen completamente",
+                    "Las larvas rabditoides pueden evolucionar a larvas filariformes infectantes (L3) o adultos de vida libre",
+                    "Se sintetizan huevos de <em>Ascaris</em> falsos positivos",
+                    "El parásito se convierte en protozoo flagelado"
+                  ],
+                  "correct": 1,
+                  "explanation": "En el ambiente/suelo (o muestras no conservadas), la larva rabditoide de <em>Strongyloides</em> madura hacia la larva filariforme infectante (L3) o hacia formas adultas."
+                },
+                {
+                  "id": 362,
+                  "question": "Caso Clínico 4: Paciente adulto que consume carne de cerdo cruda o mal cocida infectada con cisticercos. ¿Qué forma clínica desarrollará en su intestino al cabo de unos meses?",
+                  "options": [
+                    "Cisticercosis cerebral grave",
+                    "Teniasis intestinal por <em>Taenia solium</em> adulta",
+                    "Hidatidosis hepática",
+                    "Obstrucción pulmonar por larvas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La ingesta de carne de cerdo con cisticercos lleva al desarrollo del tenioide/adulto en el intestino delgado del humano (hospedador definitivo)."
+                },
+                {
+                  "id": 363,
+                  "question": "Si un paciente es infectado por un parásito protozoo del grupo Apicomplexa como <em>Plasmodium falciparum</em>, ¿cuál es la localización primaria de la fase reproductora asexual (esquizogonia) dentro del cuerpo humano?",
+                  "options": [
+                    "Superficie de la mucosa del colon",
+                    "Hígado (hepatocitos) y eritrocitos (glóbulos rojos)",
+                    "Lumen del yeyuno",
+                    "Músculo estriado esquelético"
+                  ],
+                  "correct": 1,
+                  "explanation": "En el esquema del ciclo de <em>Plasmodium</em>, la fase asexual (esquizogonia) cursa en el humano dividida entre los esquizontes hepáticos y los merozoítos en eritrocitos."
+                },
+                {
+                  "id": 364,
+                  "question": "¿Qué pasaría si un niño infectado por <em>Enterobius vermicularis</em> se rasca la zona perianal y luego se lleva los dedos a la boca sin lavarse las manos?",
+                  "options": [
+                    "Desarrollará un ciclo de autoinfección fecal-oral exógena reiniciando el desarrollo intestinal",
+                    "Destruirá las larvas con las enzimas salivales de inmediato",
+                    "El parásito migrara al pulmón produciendo tos crónica",
+                    "Generará anemia ferropénica en 24 horas"
+                  ],
+                  "correct": 0,
+                  "explanation": "La tabla de <em>Enterobius vermicularis</em> señala que la vía de ingreso es fecal-oral y advierte que puede ocurrir autoinfección mediante rascado e ingesta de huevos."
+                },
+                {
+                  "id": 365,
+                  "question": "Caso Clínico 5: Un paciente inmunosuprimido por quimioterapia presenta diarrea acuosa profusa, dolor abdominal y deshidratación. El examen coprológico teñido con Ziehl-Neelsen modificado revela oocistos esféricos ácido-alcohol resistentes. ¿A qué grupo de protozoos pertenece el patógeno responsable?",
+                  "options": [
+                    "Amebas (<em>Entamoeba histolytica</em>)",
+                    "Flagelados sin kinetoplasto (<em>Giardia lamblia</em>)",
+                    "Apicomplexa (<em>Cryptosporidium spp.</em>)",
+                    "Ciliados (<em>Balantidium coli</em>)"
+                  ],
+                  "correct": 2,
+                  "explanation": "<em>Cryptosporidium spp.</em> es un parásito protozoo perteneciente al filo Apicomplexa que se identifica como oocistos en heces."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "antihelminticos",
+          "title": "Farmacología de Antihelmínticos y Antiamebianos",
+          "description": "Revisa los mecanismos de acción, espectro y efectos adversos de los principales fármacos usados contra helmintos y amebas.",
+          "topics": [
+            "Benzimidazoles: mecanismo sobre la beta-tubulina",
+            "Pirantel, piperazina e ivermectina: acción neuromuscular",
+            "Praziquantel y niclosamida en infecciones por céstodos y tremátodos",
+            "Metronidazol y otros antiamebianos: mecanismo y usos clínicos"
+          ],
+          "sections": [
+            {
+              "title": "Fundamentos Teóricos",
+              "questions": [
+                {
+                  "id": 366,
+                  "question": "¿Cuál es el mecanismo de acción de los benzimidazoles (tiabendazol, mebendazol, albendazol)?",
+                  "options": [
+                    "Bloqueo neuromuscular reversible con parálisis flácida",
+                    "Unión selectiva a la beta-tubulina, inhibiendo la polimerización de microtúbulos",
+                    "Aumento de la permeabilidad al calcio",
+                    "Acción nicotínica despolarizante"
+                  ],
+                  "correct": 1,
+                  "explanation": "Se unen selectivamente a la beta-tubulina, inhiben la polimerización de microtúbulos, alteran el transporte intracelular y la captación de glucosa, disminuyendo glucógeno/ATP hasta la muerte del parásito."
+                },
+                {
+                  "id": 367,
+                  "question": "El pamoato de pirantel produce su efecto antihelmíntico mediante:",
+                  "options": [
+                    "Inhibición de la síntesis de DNA",
+                    "Acción nicotínica que causa parálisis espástica",
+                    "Bloqueo de la captación de glucosa en el escólex",
+                    "Hiperpolarización por canales de cloro"
+                  ],
+                  "correct": 1,
+                  "explanation": "Ejerce acción nicotínica (agonista colinérgico despolarizante) generando parálisis espástica del gusano, favoreciendo su expulsión."
+                },
+                {
+                  "id": 368,
+                  "question": "La piperazina se diferencia del pirantel porque:",
+                  "options": [
+                    "También causa parálisis espástica",
+                    "Produce bloqueo neuromuscular reversible con parálisis flácida",
+                    "Actúa sobre canales de cloro sensibles a glutamato",
+                    "Es hepatotóxica"
+                  ],
+                  "correct": 1,
+                  "explanation": "La piperazina bloquea la transmisión neuromuscular de forma reversible, generando parálisis flácida (relajación), a diferencia del pirantel que produce parálisis espástica."
+                },
+                {
+                  "id": 369,
+                  "question": "El mecanismo de acción de la ivermectina consiste en:",
+                  "options": [
+                    "Inhibir la polimerización de tubulina",
+                    "Bloquear la captación de glucosa",
+                    "Potenciar y activar canales de cloro sensibles a glutamato, hiperpolarizando la célula",
+                    "Aumentar la permeabilidad al calcio"
+                  ],
+                  "correct": 2,
+                  "explanation": "Potencia y activa directamente los canales de cloro sensibles al glutamato, hiperpolarizando la membrana muscular del parásito y causando parálisis."
+                },
+                {
+                  "id": 370,
+                  "question": "La niclosamida actúa dañando irreversiblemente:",
+                  "options": [
+                    "La membrana de microfilarias",
+                    "El escólex del céstodo, bloqueando la captación de glucosa",
+                    "El DNA del parásito",
+                    "Los canales de cloro del parásito"
+                  ],
+                  "correct": 1,
+                  "explanation": "Bloquea la captación de glucosa dañando irreversiblemente el escólex del céstodo, lo que provoca su expulsión."
+                },
+                {
+                  "id": 371,
+                  "question": "El prazicuantel es de elección en esquistosomiasis y cisticercosis porque:",
+                  "options": [
+                    "Inhibe la síntesis de DNA",
+                    "Aumenta la permeabilidad al calcio, provocando contracción y parálisis espástica",
+                    "Bloquea receptores nicotínicos",
+                    "Reduce la ferredoxina"
+                  ],
+                  "correct": 1,
+                  "explanation": "Aumenta la permeabilidad de la membrana al calcio, generando contracción sostenida y parálisis espástica del helminto; es de amplio espectro contra céstodos y tremátodos."
+                },
+                {
+                  "id": 372,
+                  "question": "El metronidazol ejerce su efecto letal sobre el parásito principalmente al:",
+                  "options": [
+                    "Bloquear canales de cloro",
+                    "Reducir su grupo nitro vía ferredoxina, generando productos que inhiben la síntesis de DNA",
+                    "Inhibir la beta-tubulina",
+                    "Aumentar la permeabilidad al calcio"
+                  ],
+                  "correct": 1,
+                  "explanation": "La ferredoxina del parásito reduce el grupo nitro del metronidazol, generando metabolitos reactivos que inhiben la síntesis de DNA y destruyen su estructura helicoidal."
+                },
+                {
+                  "id": 373,
+                  "question": "El \"efecto antabuse\" asociado al metronidazol se debe a la inhibición de:",
+                  "options": [
+                    "La aldehído deshidrogenasa",
+                    "La beta-tubulina",
+                    "La ferredoxina",
+                    "La acetilcolinesterasa"
+                  ],
+                  "correct": 0,
+                  "explanation": "El metronidazol inhibe la aldehído deshidrogenasa, provocando acumulación de acetaldehído si se consume alcohol (efecto antabuse)."
+                },
+                {
+                  "id": 374,
+                  "question": "¿Cuál de las siguientes es una hidroxiquinolona amebicida luminal?",
+                  "options": [
+                    "Teclozan",
+                    "Paromomicina",
+                    "Yodoquinol",
+                    "Etofamida"
+                  ],
+                  "correct": 2,
+                  "explanation": "El yodoquinol es la hidroxiquinolona mencionada; teclozan y etofamida son dicloroacetamidas, y la paromomicina es un antimicrobiano usado como amebicida luminal."
+                },
+                {
+                  "id": 375,
+                  "question": "La nitazoxanida ejerce su efecto en protozoarios principalmente al:",
+                  "options": [
+                    "Inhibir la síntesis de DNA",
+                    "Reducir la enzima PFOR (piruvato-ferredoxina oxidorreductasa) y la polimerización de tubulina",
+                    "Bloquear canales de cloro",
+                    "Aumentar la permeabilidad al calcio"
+                  ],
+                  "correct": 1,
+                  "explanation": "Inhibe la polimerización de tubulina y, en protozoarios, reduce la PFOR, interfiriendo con el metabolismo energético anaeróbico del parásito."
+                }
+              ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 376,
+                  "question": "Para un paciente con hidatidosis con compromiso tisular, el benzimidazol de elección es:",
+                  "options": [
+                    "Tiabendazol, por su mejor absorción",
+                    "Mebendazol, por su bajo costo",
+                    "Albendazol, porque se concentra en tejidos, incluso en quistes hidatídicos",
+                    "Cualquiera, ya que todos tienen igual distribución tisular"
+                  ],
+                  "correct": 2,
+                  "explanation": "El albendazol se concentra en tejidos, incluso dentro de quistes hidatídicos, a diferencia de los otros benzimidazoles con acción predominantemente intestinal."
+                },
+                {
+                  "id": 377,
+                  "question": "Combinar pamoato de pirantel con piperazina en el mismo esquema sería inadecuado porque:",
+                  "options": [
+                    "Ambos son hepatotóxicos",
+                    "Sus mecanismos son antagónicos: uno causa parálisis espástica y el otro flácida",
+                    "Ambos requieren metabolismo renal",
+                    "Ninguno actúa sobre Ascaris"
+                  ],
+                  "correct": 1,
+                  "explanation": "El pirantel (agonista nicotínico, parálisis espástica) y la piperazina (bloqueador neuromuscular, parálisis flácida) tienen efectos farmacológicamente opuestos, por lo que podrían anular su eficacia mutua."
+                },
+                {
+                  "id": 378,
+                  "question": "La baja absorción oral (~15%) del pamoato de pirantel explica su eficacia contra helmintos intestinales porque:",
+                  "options": [
+                    "Permite alcanzar altas concentraciones sistémicas",
+                    "Mantiene altas concentraciones del fármaco en la luz intestinal, donde están los parásitos",
+                    "Evita el metabolismo hepático por completo",
+                    "Aumenta su unión a proteínas plasmáticas"
+                  ],
+                  "correct": 1,
+                  "explanation": "Al absorberse poco, la mayor parte del fármaco permanece en la luz intestinal, maximizando el efecto local sobre Ascaris, oxiuros y uncinarias."
+                },
+                {
+                  "id": 379,
+                  "question": "Un paciente con oncocercosis tratado con ivermectina presenta fiebre, prurito intenso y malestar tras la dosis. Este cuadro corresponde a:",
+                  "options": [
+                    "Toxicidad hepática directa",
+                    "Reacción de Mazzotti, por muerte masiva de microfilarias",
+                    "Efecto antabuse",
+                    "Bloqueo neuromuscular excesivo"
+                  ],
+                  "correct": 1,
+                  "explanation": "Es la reacción de Mazzotti, una reacción inmunitaria desencadenada por la liberación de antígenos tras la muerte de microfilarias."
+                },
+                {
+                  "id": 380,
+                  "question": "Para un paciente con neurocisticercosis por T. solium (a diferencia de una teniasis intestinal simple), la mejor elección terapéutica sería:",
+                  "options": [
+                    "Niclosamida, porque actúa en el escólex",
+                    "Piperazina, porque produce parálisis flácida",
+                    "Albendazol, por su buena penetración tisular hacia el sistema nervioso central",
+                    "Pamoato de pirantel, por su bajo costo"
+                  ],
+                  "correct": 2,
+                  "explanation": "Albendazol penetra tejidos, incluyendo el SNC, siendo útil en neurocisticercosis; la niclosamida no se absorbe y sólo sirve para teniasis intestinal."
+                },
+                {
+                  "id": 381,
+                  "question": "El prazicuantel y la dietilcarbamazina NO son intercambiables porque:",
+                  "options": [
+                    "Ambos actúan solo sobre nemátodos",
+                    "El prazicuantel trata céstodos/tremátodos y la dietilcarbamazina es específica para filarias",
+                    "Ambos tienen el mismo mecanismo de acción",
+                    "La dietilcarbamazina es hepatotóxica y el prazicuantel no"
+                  ],
+                  "correct": 1,
+                  "explanation": "El prazicuantel actúa sobre céstodos y tremátodos (aumento de calcio intracelular), mientras que la dietilcarbamazina es específica para filarias, con un mecanismo distinto."
+                },
+                {
+                  "id": 382,
+                  "question": "En amebiasis intestinal invasiva tratada con metronidazol, se agrega yodoquinol porque:",
+                  "options": [
+                    "El metronidazol no tiene efecto tisular",
+                    "El yodoquinol potencia la absorción del metronidazol",
+                    "El metronidazol tiene poco efecto sobre amebas en la luz intestinal, y el yodoquinol (no absorbible) las erradica, previniendo recaídas",
+                    "Ambos deben combinarse siempre por ley"
+                  ],
+                  "correct": 2,
+                  "explanation": "El metronidazol actúa principalmente a nivel tisular; el yodoquinol, al no absorberse, elimina las amebas/quistes residuales en la luz intestinal, evitando el estado de portador."
+                },
+                {
+                  "id": 383,
+                  "question": "El efecto adverso más esperado tras tratamiento prolongado con albendazol para hidatidosis es:",
+                  "options": [
+                    "Nefrotoxicidad",
+                    "Hepatotoxicidad",
+                    "Ototoxicidad",
+                    "Cardiotoxicidad"
+                  ],
+                  "correct": 1,
+                  "explanation": "El albendazol tiene potencial hepatotóxico descrito, especialmente entre los benzimidazoles, además de cefalea, fiebre y fatiga."
+                },
+                {
+                  "id": 384,
+                  "question": "En comparación con el metronidazol, la ventaja farmacocinética del tinidazol es:",
+                  "options": [
+                    "Menor biodisponibilidad",
+                    "Vida media prolongada, permitiendo esquemas más simples",
+                    "Ausencia de metabolismo hepático",
+                    "Mayor toxicidad neurológica"
+                  ],
+                  "correct": 1,
+                  "explanation": "El tinidazol tiene una vida media prolongada respecto al metronidazol, lo que permite dosis únicas o esquemas más simples, mejorando la adherencia."
+                },
+                {
+                  "id": 385,
+                  "question": "Un paciente con amebiasis y giardiasis concomitantes podría beneficiarse de un tratamiento único con:",
+                  "options": [
+                    "Niclosamida",
+                    "Nitazoxanida, por su amplio espectro que cubre ambas entidades",
+                    "Piperazina",
+                    "Dietilcarbamazina"
+                  ],
+                  "correct": 1,
+                  "explanation": "La nitazoxanida tiene indicación tanto en disentería amebiana como en giardiasis (y helmintiasis), permitiendo cubrir ambas infecciones con un solo fármaco."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 386,
+                  "question": "Una gestante de 10 semanas con ascariasis sintomática. La conducta más prudente respecto a mebendazol/albendazol es:",
+                  "options": [
+                    "Administrarlos sin restricción, ya que son seguros en el embarazo",
+                    "Evitarlos por su potencial teratogénico, especialmente en el primer trimestre",
+                    "Duplicar la dosis para asegurar eficacia",
+                    "Combinarlos con piperazina"
+                  ],
+                  "correct": 1,
+                  "explanation": "Mebendazol y albendazol tienen potencial teratogénico y deben evitarse, sobre todo en el primer trimestre, valorando riesgo-beneficio o alternativas más seguras."
+                },
+                {
+                  "id": 387,
+                  "question": "Un paciente con oxiuriasis recibe piperazina en dosis única, pero no se trata a los convivientes. El resultado más probable es:",
+                  "options": [
+                    "Curación definitiva sin riesgo de recontagio",
+                    "Reinfección rápida por transmisión fecal-oral entre convivientes",
+                    "Resistencia inmediata al fármaco",
+                    "Ausencia de riesgo, ya que la piperazina tiene efecto profiláctico prolongado"
+                  ],
+                  "correct": 1,
+                  "explanation": "La enterobiasis se transmite fácilmente entre convivientes por autoinfección y contacto fecal-oral; sin tratar a todo el núcleo familiar, la reinfección es muy probable."
+                },
+                {
+                  "id": 388,
+                  "question": "Un niño de una zona de alto riesgo (>50% prevalencia de geohelmintos, ej. Chocó) con anemia y retraso de crecimiento. Según la estrategia poblacional descrita, se recomienda:",
+                  "options": [
+                    "No realizar desparasitación masiva",
+                    "Desparasitación masiva una vez al año",
+                    "Desparasitación masiva dos veces al año",
+                    "Tratamiento individual solo si hay síntomas"
+                  ],
+                  "correct": 2,
+                  "explanation": "En zonas de alto riesgo (>50%) se recomienda desparasitación masiva 2 veces al año, dada la alta prevalencia y el impacto en anemia y desarrollo infantil."
+                },
+                {
+                  "id": 389,
+                  "question": "Un paciente con quiste hidatídico hepático e insuficiencia hepática moderada requiere albendazol. La conducta más adecuada es:",
+                  "options": [
+                    "Usarlo sin ninguna precaución adicional",
+                    "Contraindicarlo absolutamente sin alternativa",
+                    "Usarlo con monitorización estrecha de la función hepática, dado su riesgo hepatotóxico y metabolismo hepático",
+                    "Reemplazarlo automáticamente por niclosamida"
+                  ],
+                  "correct": 2,
+                  "explanation": "Dado que el albendazol es hepatotóxico y de metabolismo hepático, en un paciente con insuficiencia hepática se requiere vigilancia estrecha de enzimas hepáticas y posible ajuste terapéutico."
+                },
+                {
+                  "id": 390,
+                  "question": "Un paciente en tratamiento con metronidazol consume alcohol. Lo esperable es:",
+                  "options": [
+                    "Ningún efecto, son compatibles",
+                    "Un efecto tipo \"antabuse\": rubor, taquicardia, náuseas y malestar por acumulación de acetaldehído",
+                    "Potenciación del efecto antiparasitario",
+                    "Reducción de la vida media del fármaco"
+                  ],
+                  "correct": 1,
+                  "explanation": "Al inhibir la aldehído deshidrogenasa, el metronidazol provoca acumulación de acetaldehído si se ingiere alcohol, generando el efecto antabuse."
+                },
+                {
+                  "id": 391,
+                  "question": "Un paciente tratado con ivermectina para oncocercosis presenta somnolencia leve y cambios electrográficos transitorios, además de la reacción de Mazzotti. La conducta más razonable es:",
+                  "options": [
+                    "Suspender inmediatamente el fármaco de forma definitiva",
+                    "Vigilar la evolución, dado que son efectos colaterales descritos y usualmente transitorios, sin suspender de entrada",
+                    "Duplicar la dosis para acelerar la resolución",
+                    "Iniciar antibioticoterapia empírica"
+                  ],
+                  "correct": 1,
+                  "explanation": "Estos efectos están descritos como colaterales conocidos de la ivermectina; si son leves y transitorios no ameritan suspensión inmediata, pero sí vigilancia clínica."
+                },
+                {
+                  "id": 392,
+                  "question": "Un paciente con giardiasis tiene alergia documentada a nitroimidazoles. La alternativa terapéutica planteada en el material es:",
+                  "options": [
+                    "Tinidazol, porque no es un nitroimidazol",
+                    "Furazolidona, al no pertenecer a los nitroimidazoles",
+                    "Niclosamida",
+                    "Prazicuantel"
+                  ],
+                  "correct": 1,
+                  "explanation": "La furazolidona se menciona como alternativa para giardiasis, siendo razonable en un paciente alérgico a nitroimidazoles (el tinidazol sí es un nitroimidazol, como el metronidazol)."
+                },
+                {
+                  "id": 393,
+                  "question": "Una mujer con tricomoniasis vaginal tiene pareja estable asintomática. La conducta correcta es:",
+                  "options": [
+                    "Tratar solo a la mujer, ya que la pareja está asintomática",
+                    "Tratar a ambos, ya que la pareja asintomática puede ser reservorio y causar reinfección",
+                    "No tratar a ninguno hasta confirmar síntomas en la pareja",
+                    "Tratar solo a la pareja"
+                  ],
+                  "correct": 1,
+                  "explanation": "Al ser una infección de transmisión sexual, se debe tratar a la pareja aunque esté asintomática, para evitar reinfección de la paciente."
+                },
+                {
+                  "id": 394,
+                  "question": "Usar niclosamida para tratar una neurocisticercosis sería inadecuado porque:",
+                  "options": [
+                    "Es demasiado costosa",
+                    "Actúa localmente en el escólex intestinal y no alcanza tejido nervioso, donde están los cisticercos",
+                    "Solo actúa sobre nemátodos, no céstodos",
+                    "Requiere metabolismo renal exclusivo"
+                  ],
+                  "correct": 1,
+                  "explanation": "La niclosamida actúa en la luz intestinal dañando el escólex, sin penetración sistémica relevante; los cisticercos en SNC requieren fármacos con buena penetración tisular como albendazol o prazicuantel."
+                },
+                {
+                  "id": 395,
+                  "question": "Un paciente con VIH avanzado presenta infección mixta por E. histolytica y Giardia lamblia, con sospecha de helmintiasis concomitante. La estrategia terapéutica más eficiente sería:",
+                  "options": [
+                    "Solo niclosamida, ya que cubre todos los parásitos",
+                    "Solo piperazina, por su bajo costo",
+                    "Metronidazol/tinidazol más un amebicida luminal, considerando nitazoxanida como alternativa de amplio espectro que cubre amebiasis, giardiasis y helmintiasis",
+                    "Ivermectina en monoterapia para todas las infecciones"
+                  ],
+                  "correct": 2,
+                  "explanation": "El nitroimidazol cubre amebiasis y giardiasis, complementado con un amebicida luminal para evitar el estado de portador; la nitazoxanida es una alternativa de amplio espectro que simplifica el esquema en un paciente con adherencia comprometida."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "antimicoticos",
+          "title": "Farmacología de Antimicóticos",
+          "description": "Analiza los mecanismos de acción, resistencia y aplicación clínica de los principales grupos de fármacos antifúngicos.",
+          "topics": [
+            "Polienos (anfotericina B, nistatina): unión al ergosterol",
+            "Azoles: inhibición de la 14-α-demetilasa",
+            "Equinocandinas: inhibición de la beta-1,3-glucano sintetasa",
+            "Resistencia antifúngica intrínseca vs. adquirida y selección terapéutica"
+          ],
+          "sections": [
+            {
+              "title": "Fundamentos Teóricos",
+              "questions": [
+                {
+                  "id": 396,
+                  "question": "¿Cuál es el mecanismo de acción de los polienos (anfotericina B, nistatina)?",
+                  "options": [
+                    "Inhiben la enzima 14-α-demetilasa",
+                    "Se unen al ergosterol de la membrana fúngica formando poros que alteran su permeabilidad",
+                    "Inhiben la beta-1,3-glucano sintetasa",
+                    "Inhiben la timidilato sintetasa"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los polienos se unen al ergosterol de la membrana citoplasmática fúngica, formando un complejo poliénico-ergosterol que genera poros, produciendo fuga de iones y desestabilización de la membrana."
+                },
+                {
+                  "id": 397,
+                  "question": "El mecanismo de acción de los azoles consiste en:",
+                  "options": [
+                    "Inhibir la síntesis de quitina",
+                    "Inhibir la enzima 14-α-demetilasa dependiente del citocromo P450, bloqueando la conversión de lanosterol a ergosterol",
+                    "Formar poros en la membrana uniéndose al ergosterol",
+                    "Inhibir la polimerización de microtúbulos"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los azoles inhiben la 14-α-demetilasa (enzima del citocromo P450), impidiendo la conversión de lanosterol a ergosterol, con acumulación de esteroles tóxicos intermedios y muerte celular."
+                },
+                {
+                  "id": 398,
+                  "question": "Las equinocandinas (caspofungina) actúan mediante:",
+                  "options": [
+                    "Inhibición de la beta-1,3-glucano sintetasa, reduciendo la síntesis de glucanos de la pared celular",
+                    "Inhibición de la síntesis de ergosterol",
+                    "Unión directa al ADN fúngico",
+                    "Bloqueo de los canales de cloro"
+                  ],
+                  "correct": 0,
+                  "explanation": "Inhiben la enzima beta-1,3-glucano sintetasa, generando depleción de beta-1,3-glucano en la pared celular, pérdida de rigidez, inestabilidad osmótica y muerte del hongo."
+                },
+                {
+                  "id": 399,
+                  "question": "La terbinafina (alilamina) ejerce su efecto antifúngico al:",
+                  "options": [
+                    "Inhibir la escualeno 2,3-epoxidasa, bloqueando la conversión de escualeno a lanosterol",
+                    "Inhibir la 14-α-demetilasa",
+                    "Unirse al ergosterol de membrana",
+                    "Inhibir la beta-1,3-glucano sintetasa"
+                  ],
+                  "correct": 0,
+                  "explanation": "Inhibe la escualeno epoxidasa, impidiendo la formación de escualeno-2,3-epóxido, lo que reduce la producción de ergosterol y provoca acumulación de escualeno, generando estrés de membrana."
+                },
+                {
+                  "id": 400,
+                  "question": "¿Cuál es el mecanismo de acción de la flucitosina (5-FC)?",
+                  "options": [
+                    "Se convierte por citosina desaminasa fúngica en 5-fluorouracilo, que inhibe la timidilato sintetasa y se incorpora al RNA, inhibiendo la síntesis de DNA y proteínas",
+                    "Inhibe la 14-α-demetilasa",
+                    "Forma poros en la membrana celular",
+                    "Inhibe la síntesis de quitina"
+                  ],
+                  "correct": 0,
+                  "explanation": "La flucitosina ingresa por una permeasa de citosina (ausente en células humanas), se transforma en 5-fluorouracilo por la citosina desaminasa fúngica, y este metabolito inhibe la timidilato sintetasa (bloqueando el DNA) y se incorpora al RNA fúngico (bloqueando la síntesis proteica)."
+                },
+                {
+                  "id": 401,
+                  "question": "Según la clasificación presentada, ¿cuál de los siguientes es un antimicótico tópico?",
+                  "options": [
+                    "Caspofungina",
+                    "Voriconazol",
+                    "Terbinafina (alilamina)",
+                    "Anfotericina B liposomal"
+                  ],
+                  "correct": 2,
+                  "explanation": "Las alilaminas (terbinafina, naftifina), la nistatina y los azoles tópicos (clotrimazol, econazol, miconazol) se clasifican como antimicóticos tópicos, mientras que anfotericina B, azoles sistémicos, antimetabolitos y equinocandinas son sistémicos."
+                },
+                {
+                  "id": 402,
+                  "question": "¿Qué diferencia principal existe entre los imidazoles y los triazoles según su estructura?",
+                  "options": [
+                    "Los imidazoles tienen 3 nitrógenos y los triazoles 2",
+                    "Los imidazoles tienen 2 nitrógenos (uso principalmente tópico) y los triazoles tienen 3 nitrógenos (diseñados para uso sistémico, más estables)",
+                    "No existe diferencia estructural entre ellos",
+                    "Los triazoles solo se usan en infecciones cutáneas"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los imidazoles (2 nitrógenos: ketoconazol, miconazol, clotrimazol) se usan principalmente en infecciones superficiales por su mayor toxicidad sistémica; los triazoles (3 nitrógenos: fluconazol, itraconazol, voriconazol, posaconazol) son más estables, se metabolizan más lento y se diseñaron para uso sistémico."
+                },
+                {
+                  "id": 403,
+                  "question": "¿Cuáles son los principales efectos adversos descritos para la anfotericina B convencional?",
+                  "options": [
+                    "Solo hepatotoxicidad",
+                    "Reacciones relacionadas con la infusión (fiebre, escalofríos, tromboflebitis), nefrotoxicidad (hipocalemia, hipomagnesemia, aumento de creatinina/urea) y anemia normocítica normocrómica",
+                    "Únicamente reacciones alérgicas cutáneas",
+                    "Solo toxicidad ósea por fluoruro"
+                  ],
+                  "correct": 1,
+                  "explanation": "La anfotericina B produce reacciones por infusión (fiebre, escalofríos, tromboflebitis, necrosis tisular), nefrotoxicidad con alteraciones electrolíticas (hipocalemia, hipomagnesemia) y elevación de creatinina/urea, además de anemia normocítica normocrómica."
+                },
+                {
+                  "id": 404,
+                  "question": "Respecto a la caspofungina, ¿cuál de las siguientes afirmaciones es correcta según su espectro de actividad?",
+                  "options": [
+                    "Tiene excelente actividad frente a Cryptococcus",
+                    "No tiene actividad frente a Criptococo, pero cubre Candida spp (incluida glabrata y krusei), Aspergillus spp y hongos filamentosos",
+                    "Solo actúa sobre dermatofitos",
+                    "Es inactiva frente a Candida"
+                  ],
+                  "correct": 1,
+                  "explanation": "La caspofungina cubre Candida spp (incluso las especies con menor sensibilidad a azoles como glabrata y krusei), Aspergillus spp, hongos filamentosos, Blastomyces, Histoplasma y Coccidioides, pero NO tiene actividad frente a Cryptococcus."
+                },
+                {
+                  "id": 405,
+                  "question": "¿Cuál es la diferencia entre resistencia intrínseca (natural) y resistencia secundaria (adquirida) en hongos?",
+                  "options": [
+                    "Son sinónimos",
+                    "En la intrínseca ningún miembro de la especie es sensible al fármaco desde el inicio (ej. Candida krusei y fluconazol); en la secundaria, una cepa previamente sensible adquiere resistencia después del tratamiento con el antifúngico",
+                    "La secundaria ocurre sin exposición previa al fármaco",
+                    "La intrínseca solo se observa en Aspergillus"
+                  ],
+                  "correct": 1,
+                  "explanation": "La resistencia intrínseca es una insensibilidad natural de toda la especie (ningún miembro es sensible, ej. C. krusei frente a fluconazol) sin exposición previa; la resistencia secundaria o adquirida ocurre cuando una cepa antes sensible se vuelve resistente tras el tratamiento con el antifúngico."
+                }
+              ]
+            },
+            {
+              "title": "Aplicación: Interpretación y Comparación",
+              "questions": [
+                {
+                  "id": 406,
+                  "question": "Un paciente con candidemia presenta intolerancia a la anfotericina B convencional. La alternativa más razonable según el material sería:",
+                  "options": [
+                    "Suspender todo tratamiento antifúngico",
+                    "Usar una formulación lipídica de anfotericina B (ABLC, ABCD o liposomal), ya que ofrecen eficacia similar con menor nefrotoxicidad",
+                    "Duplicar la dosis de anfotericina B convencional",
+                    "Usar terbinafina sistémica"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las formulaciones lipídicas de anfotericina B tienen eficacia similar a la convencional pero con menor nefrotoxicidad, y están indicadas precisamente en pacientes con intolerancia al tratamiento convencional o falla renal preexistente (aunque de alto costo)."
+                },
+                {
+                  "id": 407,
+                  "question": "¿Por qué la combinación de azoles con anfotericina B se considera potencialmente antagónica?",
+                  "options": [
+                    "Porque ambos tienen el mismo mecanismo de acción",
+                    "Porque los azoles inhiben la síntesis de ergosterol, reduciendo el sustrato de membrana al que la anfotericina B necesita unirse para ejercer su efecto",
+                    "Porque los azoles inactivan directamente a la anfotericina B en plasma",
+                    "Porque ambos requieren metabolismo renal exclusivo"
+                  ],
+                  "correct": 1,
+                  "explanation": "Los azoles bloquean la síntesis de ergosterol; como la anfotericina B necesita unirse al ergosterol de la membrana para formar poros, al haber menos ergosterol disponible, el efecto de la anfotericina B se ve disminuido (antagonismo farmacológico)."
+                },
+                {
+                  "id": 408,
+                  "question": "Comparando el mecanismo de la flucitosina con el de la anfotericina B, explique por qué su combinación es sinérgica.",
+                  "options": [
+                    "Ambas actúan sobre el mismo blanco molecular",
+                    "La anfotericina B aumenta la permeabilidad de la membrana fúngica, facilitando la entrada de flucitosina a la célula, mientras esta ejerce su efecto sobre la síntesis de DNA/RNA en el núcleo",
+                    "La flucitosina inhibe a la anfotericina B",
+                    "No existe sinergismo descrito entre ambas"
+                  ],
+                  "correct": 1,
+                  "explanation": "La anfotericina B daña la membrana celular fúngica aumentando su permeabilidad, lo que permite que más flucitosina penetre a la célula y ejerza su efecto inhibitorio sobre la síntesis de ácidos nucleicos, siendo ambos mecanismos complementarios (sinergia parcial descrita especialmente en Cryptococcus)."
+                },
+                {
+                  "id": 409,
+                  "question": "Un paciente en tratamiento con voriconazol recibe simultáneamente un alcaloide de la vinca (ej. vincristina) para quimioterapia. ¿Qué riesgo se anticipa según las interacciones descritas?",
+                  "options": [
+                    "Ausencia de interacción relevante",
+                    "Aumento de la exposición al alcaloide de la vinca, con riesgo de neurotoxicidad, debido a la inhibición del citocromo P450 por el azol",
+                    "Disminución del efecto del voriconazol",
+                    "Reducción del riesgo de toxicidad del alcaloide"
+                  ],
+                  "correct": 1,
+                  "explanation": "El voriconazol, al inhibir enzimas del citocromo P450, aumenta la exposición a alcaloides de la vinca (vincristina, vinblastina), incrementando el riesgo de neurotoxicidad, tal como se describe en la tabla de interacciones."
+                },
+                {
+                  "id": 410,
+                  "question": "Para un paciente con esofagitis candidiásica refractaria a fluconazol, ¿qué fármaco sería razonable considerar según las indicaciones descritas?",
+                  "options": [
+                    "Nistatina tópica",
+                    "Caspofungina, indicada precisamente en esofagitis candidiásica refractaria a fluconazol",
+                    "Griseofulvina",
+                    "Piperazina"
+                  ],
+                  "correct": 1,
+                  "explanation": "La caspofungina está indicada en esofagitis candidiásica refractaria a fluconazol, además de infecciones por Aspergillus refractarias a anfotericina B y candidemia en pacientes no neutropénicos."
+                },
+                {
+                  "id": 411,
+                  "question": "Un paciente con onicomicosis recibe terbinafina oral y, durante exposición solar en vacaciones, desarrolla un exantema pruriginoso en zonas fotoexpuestas con fiebre. Con base en el caso descrito en el material, esto correspondería a:",
+                  "options": [
+                    "Una reacción alérgica alimentaria no relacionada con el fármaco",
+                    "Una fotodermatosis/fotosensibilización inducida por terbinafina, que mejora al suspender el fármaco",
+                    "Un efecto esperado y sin relevancia clínica que no requiere ninguna conducta",
+                    "Toxicidad renal por terbinafina"
+                  ],
+                  "correct": 1,
+                  "explanation": "El caso reportado describe una fotodermatosis inducida por terbinafina en una mujer tratada por onicomicosis, con erupción en zonas fotoexpuestas, fiebre y malestar, que mejoró al suspender el fármaco y usar fotoprotección/corticoide tópico."
+                },
+                {
+                  "id": 412,
+                  "question": "Ante una cepa de Candida krusei aislada en un paciente, ¿qué antifúngico evitaría de entrada según el concepto de resistencia intrínseca?",
+                  "options": [
+                    "Anfotericina B",
+                    "Fluconazol, ya que C. krusei presenta resistencia intrínseca a este azol",
+                    "Caspofungina",
+                    "Nistatina tópica"
+                  ],
+                  "correct": 1,
+                  "explanation": "Candida krusei es un ejemplo clásico de resistencia intrínseca (natural) al fluconazol, mencionado explícitamente en el material, por lo que este fármaco no sería una opción adecuada de entrada."
+                },
+                {
+                  "id": 413,
+                  "question": "Comparando el espectro de nistatina y anfotericina B según el material, ¿qué tienen en común ambos polienos?",
+                  "options": [
+                    "Ambos requieren metabolismo hepático exclusivo",
+                    "Ambos son fungistáticos/fungicidas activos frente a levaduras (Candida, C. neoformans) y hongos dimórficos, actuando sobre la membrana fúngica",
+                    "Ambos se usan exclusivamente por vía intravenosa",
+                    "Ninguno actúa sobre Aspergillus"
+                  ],
+                  "correct": 1,
+                  "explanation": "Ambos son polienos con mecanismo de acción similar (unión a ergosterol) y espectro que incluye levaduras (Candida sp, C. neoformans) y hongos dimórficos (H. capsulatum, B. dermatitidis); la nistatina se destaca por su uso tópico y la anfotericina B por su uso sistémico."
+                },
+                {
+                  "id": 414,
+                  "question": "Un paciente con insuficiencia renal preexistente requiere tratamiento antifúngico sistémico prolongado para una micosis invasiva grave. ¿Qué opción sería más prudente según las propiedades descritas?",
+                  "options": [
+                    "Anfotericina B deoxicolato convencional en altas dosis",
+                    "Una formulación lipídica de anfotericina B, dado que tiene menor nefrotoxicidad que la convencional",
+                    "Suspender cualquier antifúngico",
+                    "Aumentar la dosis de flucitosina sin ajuste"
+                  ],
+                  "correct": 1,
+                  "explanation": "Las formulaciones lipídicas de anfotericina B están indicadas específicamente en pacientes con falla renal preexistente o intolerancia a la anfotericina B convencional, por su menor nefrotoxicidad, aunque con mayor costo."
+                },
+                {
+                  "id": 415,
+                  "question": "Si se sospecha una cepa fúngica con sobreexpresión de bombas de eflujo tipo MDR (major facilitators) frente a fluconazol, ¿qué se esperaría clínicamente?",
+                  "options": [
+                    "Mayor sensibilidad al fluconazol",
+                    "Resistencia al fluconazol, ya que estas bombas expulsan activamente el fármaco fuera de la célula fúngica, impidiendo que alcance concentraciones intracelulares eficaces",
+                    "Ausencia de cualquier efecto sobre la eficacia del fármaco",
+                    "Aumento de la síntesis de ergosterol como único mecanismo"
+                  ],
+                  "correct": 1,
+                  "explanation": "La sobreexpresión de bombas de eflujo (CDRs tipo ABC o MDR tipo Major Facilitators) es un mecanismo molecular de resistencia que expulsa activamente los azoles de la célula fúngica, disminuyendo su concentración intracelular y produciendo resistencia clínica al fluconazol."
+                }
+              ]
+            },
+            {
+              "title": "Análisis Clínico: Casos e Integración",
+              "questions": [
+                {
+                  "id": 416,
+                  "question": "Un paciente neutropénico febril con sospecha de infección fúngica invasiva por hongos filamentosos requiere tratamiento empírico de amplio espectro. Según las indicaciones descritas, ¿qué fármaco sería razonable de primera línea?",
+                  "options": [
+                    "Nistatina tópica",
+                    "Anfotericina B, indicada precisamente en neutropenia febril e infecciones por zygomicetos y hongos filamentosos",
+                    "Griseofulvina oral",
+                    "Clotrimazol tópico"
+                  ],
+                  "correct": 1,
+                  "explanation": "La anfotericina B está indicada en neutropenia febril, así como en infecciones por zygomicetos y hongos filamentosos, siendo una opción empírica de amplio espectro en este escenario."
+                },
+                {
+                  "id": 417,
+                  "question": "Un paciente trasplantado de pulmón requiere profilaxis contra infecciones micóticas. ¿Qué estrategia se menciona específicamente en el material para este contexto?",
+                  "options": [
+                    "Caspofungina intravenosa diaria de por vida",
+                    "Anfotericina B en aerosol como profilaxis de infecciones micóticas en trasplantados de pulmón",
+                    "Griseofulvina oral",
+                    "Ninguna profilaxis está indicada en trasplantados"
+                  ],
+                  "correct": 1,
+                  "explanation": "El material menciona explícitamente la profilaxis de infecciones micóticas en trasplantados de pulmón mediante anfotericina B administrada en aerosol."
+                },
+                {
+                  "id": 418,
+                  "question": "Un paciente con meningitis criptocócica en tratamiento con anfotericina B y flucitosina desarrolla leucopenia y trombocitopenia progresivas. ¿A qué fármaco de los dos atribuiría este efecto y por qué?",
+                  "options": [
+                    "A la anfotericina B, por su mecanismo de formación de poros",
+                    "A la flucitosina, ya que su toxicidad característica es la depresión de la función medular (leucopenia, anemia, trombocitopenia)",
+                    "A ambos por igual, sin diferencia en el mecanismo",
+                    "No es un efecto adverso descrito para ninguno de los dos"
+                  ],
+                  "correct": 1,
+                  "explanation": "La depresión de la función medular (leucopenia, anemia, trombocitopenia) es un efecto adverso característico de la flucitosina, a diferencia de la anfotericina B cuyos efectos típicos son relacionados con la infusión, nefrotoxicidad y anemia normocítica normocrómica."
+                },
+                {
+                  "id": 419,
+                  "question": "Una mujer embarazada requiere tratamiento antifúngico sistémico prolongado. Según las propiedades descritas de la flucitosina, ¿qué precaución debería tenerse?",
+                  "options": [
+                    "Ninguna, es segura en el embarazo",
+                    "Debe evitarse o usarse con extrema precaución, ya que la flucitosina tiene potencial teratogénico descrito",
+                    "Se recomienda como primera línea en el embarazo",
+                    "Solo se debe evitar en el tercer trimestre"
+                  ],
+                  "correct": 1,
+                  "explanation": "La flucitosina tiene teratogenicidad descrita entre sus efectos adversos/tóxicos, por lo que debe evitarse o usarse con extrema cautela en el embarazo, valorando riesgo-beneficio."
+                },
+                {
+                  "id": 420,
+                  "question": "Un paciente con aspergilosis invasiva refractaria a anfotericina B, con toxicidad renal significativa por este fármaco, requiere un cambio de tratamiento. ¿Cuál sería la opción más adecuada según las indicaciones descritas?",
+                  "options": [
+                    "Aumentar la dosis de anfotericina B a pesar de la toxicidad",
+                    "Caspofungina, indicada específicamente en infecciones por Aspergillus refractarias a anfotericina B o con toxicidad grave por esta droga",
+                    "Nistatina oral",
+                    "Griseofulvina sistémica"
+                  ],
+                  "correct": 1,
+                  "explanation": "La caspofungina está indicada precisamente en infecciones por Aspergillus en pacientes refractarios al tratamiento con anfotericina B o que presentan toxicidad grave por esta droga."
+                },
+                {
+                  "id": 421,
+                  "question": "Un paciente con candidiasis diseminada por Candida lusitaniae no responde clínicamente a pesar de niveles adecuados de anfotericina B. Según la tabla de susceptibilidad presentada, ¿cómo interpretaría este hallazgo?",
+                  "options": [
+                    "Es un error de laboratorio, ya que todas las Candida son sensibles a anfotericina B",
+                    "Candida lusitaniae está descrita como especie con resistencia a la anfotericina B, lo cual explicaría la falla terapéutica",
+                    "Se debe simplemente duplicar la dosis sin cambiar de fármaco",
+                    "Se debe usar dosis subterapéuticas para evitar toxicidad"
+                  ],
+                  "correct": 1,
+                  "explanation": "Según la tabla de susceptibilidad presentada, Candida lusitaniae se encuentra en la categoría de resistencia a la anfotericina B, lo que podría explicar la falta de respuesta clínica y orientaría a considerar un cambio terapéutico (p. ej., un azol o equinocandina, según sensibilidad)."
+                },
+                {
+                  "id": 422,
+                  "question": "Un paciente crítico en tratamiento prolongado con voriconazol presenta dolor óseo progresivo sin causa traumática aparente. ¿Qué relación se establece en el material entre este síntoma y los azoles sistémicos?",
+                  "options": [
+                    "No existe ninguna relación descrita",
+                    "El dolor óseo se asocia a la acumulación de fluoruro derivada del uso prolongado de azoles sistémicos como voriconazol",
+                    "Se debe exclusivamente a la anfotericina B",
+                    "Es un efecto exclusivo de la caspofungina"
+                  ],
+                  "correct": 1,
+                  "explanation": "El material describe el dolor óseo por fluoruro como un efecto adverso de los antifúngicos azólicos sistémicos, incluido el voriconazol, relacionado con la acumulación de fluoruro por uso prolongado."
+                },
+                {
+                  "id": 423,
+                  "question": "En un paciente con candidiasis invasiva causada por una cepa con mecanismo de resistencia por \"modificación del blanco de acción\" (sobreproducción de la enzima blanco Erg11), ¿qué implicación terapéutica tendría esto para el uso de azoles?",
+                  "options": [
+                    "Ninguna, los azoles seguirían siendo igual de eficaces",
+                    "La sobreproducción de la enzima diana (14-α-demetilasa/Erg11) puede requerir concentraciones más altas de azol para lograr una inhibición eficaz, favoreciendo la resistencia clínica",
+                    "Este mecanismo solo afecta a las equinocandinas",
+                    "Aumentaría automáticamente la sensibilidad a la anfotericina B"
+                  ],
+                  "correct": 1,
+                  "explanation": "La sobreproducción de la enzima blanco (Erg11/14-α-demetilasa) es uno de los mecanismos moleculares de resistencia a azoles descritos; al haber más enzima disponible, se requiere mayor cantidad de fármaco para inhibirla eficazmente, lo cual favorece el fracaso terapéutico clínico con las dosis habituales."
+                },
+                {
+                  "id": 424,
+                  "question": "Un paciente con candidemia no neutropénica presenta comorbilidad hepática significativa. Al comparar caspofungina con anfotericina B para este caso, ¿qué aspecto farmacocinético de la caspofungina debe considerarse?",
+                  "options": [
+                    "Se elimina exclusivamente por vía renal sin metabolismo hepático",
+                    "Su metabolismo es hepático por hidrólisis y acetilación, por lo que en insuficiencia hepática significativa podría requerir ajuste, aunque en general se describe como de menor toxicidad que la anfotericina B en pacientes no neutropénicos",
+                    "No tiene ningún metabolismo, se elimina inalterada",
+                    "Se elimina completamente por hemodiálisis"
+                  ],
+                  "correct": 1,
+                  "explanation": "La caspofungina tiene metabolismo hepático por hidrólisis y acetilación (con metabolitos inactivos) y no se elimina por hemodiálisis; en un paciente con comorbilidad hepática esto debe considerarse, aunque en candidemia de pacientes no neutropénicos se describe como de mayor eficacia y menor toxicidad global que la anfotericina B."
+                },
+                {
+                  "id": 425,
+                  "question": "Escenario integrador: un paciente con VIH avanzado desarrolla meningitis criptocócica. Se plantea manejo inicial con anfotericina B más flucitosina, seguido de mantenimiento. ¿Por qué esta combinación (y no monoterapia) es razonable según los conceptos de sinergismo y espectro descritos, y qué fármaco NO sería una opción para el mantenimiento por su falta de actividad frente a Cryptococcus?",
+                  "options": [
+                    "La combinación no aporta ninguna ventaja; cualquier antifúngico serviría igual, incluida la caspofungina para el mantenimiento",
+                    "La combinación anfotericina B + flucitosina es sinérgica (la anfotericina B permeabiliza la membrana facilitando la entrada de flucitosina), lo cual es especialmente relevante en Cryptococcus; la caspofungina NO sería útil para el mantenimiento porque no tiene actividad frente a Cryptococcus",
+                    "La flucitosina sola sería suficiente y más segura que la combinación",
+                    "La caspofungina sería el fármaco ideal de mantenimiento por su bajo perfil de efectos adversos"
+                  ],
+                  "correct": 1,
+                  "explanation": "El material describe sinergia parcial entre anfotericina B y flucitosina especialmente en Cryptococcus, por el mecanismo de permeabilización de membrana que facilita la acción intracelular de la flucitosina. Para el mantenimiento se usan típicamente azoles (ej. fluconazol), pero la caspofungina está explícitamente señalada como sin actividad frente a Criptococo, por lo que no sería una opción adecuada en ninguna fase del tratamiento de esta micosis."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 };
@@ -3945,10 +6248,11 @@ function renderWeeks() {
 
   courseData.weeks.forEach(week => {
     const article = document.createElement("article");
-    article.className = `week-card ${week.colorClass}`;
+    const useGrid2 = week.modules.length > 3;
+    const isWide = week.modules.length >= 4;
+    article.className = `week-card ${week.colorClass}${isWide ? " week-wide" : ""}`;
 
     const hasModules = week.modules.length > 0;
-    const useGrid2 = week.modules.length > 3;
 
     let moduleListHTML = "";
     if (hasModules) {
